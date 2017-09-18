@@ -1,0 +1,6293 @@
+body {
+    /* 	background: url(../images/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+    
+   
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+    font-family: Helvetica, Arial, sans-serif;
+}
+html,button,a {
+    overflow-x: hidden;
+    outline: none;
+}
+#app {
+    height: inherit;
+}
+.clear {
+    margin: 0px;
+    padding: 0px;
+    clear: left;
+}
+#iframe {
+    top: 0!important;
+}
+.header {
+    display: none !important;
+}
+.container-fluid {
+    padding: 0;
+    height: 100%;
+    /*added by sandhya*/
+    /* background:#fff; */
+    /*added by sandhya ends*/
+}
+#right-container,
+#grid-view {
+    background: #fff !important;
+}
+#right-container {
+    height: auto;
+}
+.bg-white {
+    background: #fff;
+}
+.left_col {} .mwlogo {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -26px -320px;
+    width: 142px;
+    height: 37px;
+    margin-top: 5px;
+}
+.logo_text {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -85px -328px;
+    width: 83px;
+    height: 17px;
+    float: left;
+}
+.logo_bottom_border {
+    border-bottom: 1px #666768 solid;
+}
+.objective_border_bottom {
+    /* border-bottom:1px #D5D5D5 solid; */
+    
+    width: 100%;
+    margin: 0 auto;
+}
+.logo_bgcolor {
+    background: #2C6AD1;
+}
+.grey_border_bottom {
+    border-bottom: 2px #DADADA solid;
+}
+.grey_border_bottom1 {
+    border-bottom: 1px #DADADA solid;
+}
+.grey_thinborder_bottom {
+    border-bottom: 1px #DADADA solid;
+    height: 44px;
+    /*added by sandhya*/
+    
+    background: #000;
+    /*added by sandhya ends*/
+}
+.grey_bg {
+    background: #F6F6F6;
+    border: 1px #E1E1E1 solid;
+    margin: 10px 0px;
+    padding: 20px;
+}
+.bg_grey {
+    background: #F6F6F6;
+}
+.topLableMenu {
+    height: 42px;
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 17px;
+}
+.no-padd {
+    padding-left: 0;
+    padding-right: 0;
+}
+.small_vertical_line {
+    height: 20px;
+    width: 1px;
+    border-right: 1px #9B9B9B dotted;
+    position: relative;
+    left: 50%;
+}
+.additional_mgr_con {
+    border: 1px #D7D7D7 solid;
+    height: 40px;
+    width: 135px;
+    border-radius: 22px;
+    margin-left: 8px;
+    float: left;
+}
+.small_user_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1206px -116px;
+    width: 21px;
+    height: 21px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 6px;
+}
+
+.additional_mgr_notify {
+        background: #9E9E9E;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 83px;
+    top: 0px;
+    text-align: center;
+    padding-top: 3px;
+}
+/********************common rules*****************************************/
+
+.fullwidth {
+    width: 97%;
+}
+.rgt {
+    float: right;
+}
+.lgt {
+    float: left;
+}
+.rgt_text {
+    text-align: right;
+}
+.italic {
+    font-style: italic;
+}
+input,
+textarea {
+    border:1px #fbebc6 solid !important;
+}
+/******************** common margin rules starts *************************/
+.mleftN3{
+	margin-left: -3px;
+}
+.margin5 {
+    margin: 10px 0px;
+}
+.marginTop40 {
+    margin-top: 40px;
+}
+.margintop70 {
+    margin-top: 70px;
+}
+.mTop16{margin-top: 16px;}
+.marginTop5 {
+    margin-top: 5px !important;
+}
+.marginTop9 {
+    margin-top: 4px;
+}
+.mTop0{margin-top: 0px !important;}
+.mtop52{
+	margin-top: 52px;
+}
+.mLeftN7{margin-left: -7px;}
+.marginBottom50 {
+    margin-bottom: 50px;
+}
+.marginBottom7 {
+    margin-bottom: 7px;
+}
+.marginBottom20 {
+    margin-bottom: 20px;
+}
+.marginLeft25 {
+    margin-left: 25px;
+}
+.marginnegative4 {
+    margin-top: -4px;
+}
+.marginnegative15 {
+    margin-top: -15px;
+}
+.marginnegative10 {
+    margin-left: -10px;
+}
+.paddingTop10 {
+    padding-top: 10px;
+}
+.paddingTop15 {
+    padding-top: 15px;
+}
+.paddingBottom10 {
+    padding-bottom: 10px;
+}
+.pad11{
+	padding: 11px;
+}
+/******************** common margin rules ends *************************/
+
+.text-area {
+    width: 100%;
+    resize: none !important;
+}
+.box {
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+}
+.label_text {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    /* padding:5px; */
+}
+.padd {
+    padding: 20px;
+}
+.fullwidthPadding {
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    /*	margin-top:30px;*/
+}
+.objectivefullwidthPadding {
+    background: #FFFAF4;
+    border: 2px #CBCBCB dashed;
+    width: 95%;
+    height: 292px;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.tbl_width {
+    margin: 25px;
+    width: 38%;
+    margin-bottom: 1px;
+    overflow: hidden;
+}
+.cmn-btn {
+    background: #FFA800 !important;
+    color: white;
+    padding: 9px 15px;
+    border: none;
+    float: right;
+    margin-right:0px;
+}
+.add_objectives_btn {
+    background: #FFA800;
+    color: white;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 0px;
+    /* margin-left: 43%; */
+    
+    margin-top: 7px;
+}
+.add_objectives_Edit_btn {
+    background: #FFA800;
+    color: white;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 0px;
+    float: right;
+    margin-bottom: 30px;
+}
+.add_objective_plus {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1009px -121px;
+    width: 15px;
+    height: 14px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.info_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1168px -118px;
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-right: 7px;
+}
+.cmn-bg {
+       background: #F0F0F0;
+    padding: 20px;
+    box-shadow: 15px 6px 24px 8px #887D7D;
+    margin-top: 13px;
+}
+.orange-dark-btn {
+    background: #D49701;
+    margin: 14px 2px !important;
+    padding: 7px 14px !important;
+}
+.inner-tab .nav-tabs {
+    /* border-bottom: 1px solid #ccc; */
+    margin-bottom: 20px;
+}
+.inner-tab .nav-tabs>li {
+        width: 20%;
+        text-align: center;
+        margin-bottom:0;
+        /* margin-right: 10px; */
+}
+.inner-tab-new .nav-tabs>li {
+    width: 20%;
+    text-align: center;
+}
+.inner-tab .nav-tabs > li > a {
+      /* border: none; */
+      border-bottom: 0px solid transparent;
+      /* margin: 0; */
+      color: #bfbbbb;
+      font-size: 13px;
+      font-weight: bold;
+      background: #fff;
+      padding: 14px;
+      /* border-right: 1px solid #ccc; */
+      margin-bottom: 0;
+}
+.inner-tab .nav-tabs>li.active>a,
+.inner-tab .nav-tabs>li.active>a:focus,
+.inner-tab .nav-tabs>li.active>a:hover {
+    border-bottom: 3px solid #FFB401;
+    color:rgb(229, 142, 13);
+    font-weight: bold;
+    outline: 0 !important;
+    /* background: #FFF6E4; */
+    border-radius: 0px !important;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+.inner-tab-new .nav-tabs>li.active>a,
+.inner-tab-new .nav-tabs>li.active>a:focus,
+.inner-tab-new .nav-tabs>li.active>a:hover {
+    border: none;
+    border-bottom: 1px solid #FFB401;
+    color:rgb(229, 142, 13);
+    font-weight: bold;
+    outline: 0 !important; 
+    background: #FFF6E4;
+    border-radius: 0px !important;
+}   
+ul {
+    margin: 0;
+    padding: 0;
+}
+.text-center {
+    text-align: center;
+}
+.menu-accordion .panel-group .panel {
+    background: none !important;
+    border: 0px !important;
+}
+.menu-accordion .panel-group .panel .panel-heading {
+    background: none !important;
+}
+.round {
+    background: none;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    color: rgba(255, 255, 255, 0.41);
+    font-size: 13px;
+        padding-top: 3px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: 600;
+    border: 1px rgba(255, 255, 255, 0.41) solid;
+}
+.round.active {
+    background: #FFB400;
+    color: #fff;
+    cursor: pointer;
+}
+.white-round {
+    background: #fff;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    color: #FFB400;
+    font-size: 13px;
+    padding-top: 11px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px #fff solid;
+}
+.menu-hori-line {
+    width: 110px;
+    height: 1px;
+    border-bottom: 1px #fff solid;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    position: absolute;
+}
+.menu-hori-line-gao {
+    width: 110px;
+    height: 1px;
+    border-bottom: 1px #fff solid;
+    float: left;
+    margin-left: 18px;
+    margin-top: -11px;
+    position: absolute;
+}
+.menu-accordion .panel.panel-default {
+    box-shadow: none;
+}
+.menu-accordion .panel-body {
+    border: none !important;
+}
+.menu-accordion a {
+    text-decoration: none!important;
+}
+.menu-accordion a {
+    border-bottom: 0.5px solid rgba(229, 229, 229, 0.41);
+    color: rgba(255, 255, 255, 0.41);
+}
+a.active {
+    border-bottom: 2px solid #A2C5FF;
+    color: white;
+    padding-bottom: 3px;
+}
+.wip-logo {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -12px -22px;
+    width: 170px;
+    height: 46px;
+    float: left;
+}
+.menu-accordion .panel-group {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.clr-white {
+    color: white;
+}
+.userpic {
+    background: url('../images/3.png') no-repeat 0 0;
+    width: 78px;
+    height: 79px;
+    float: none;
+    margin: 0 auto;
+}
+.title_txt {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px 0px;
+    font-family: "Arial";
+}
+.verticalLine {
+    height: 100px;
+    width: 1px;
+    border-right: 2px dotted rgba(229, 229, 229, 0.41);
+    /* float: left; */
+    
+    margin: 12px auto;
+    text-align: center;
+}
+.edit_obj {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -270px -310px;
+    width: 41px;
+    height: 41px;
+    float: right;
+    margin-top: 11px;
+    margin-left: 18px;
+    cursor: pointer;
+    border: none;
+    /*accessibility*/
+}
+.award {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -270px -186px;
+    width: 41px;
+    height: 41px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.mail {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -270px -240px;
+    width: 41px;
+    height: 41px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.award_notify {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background: #9E9E9E;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 3px;
+    position: relative;
+    top: -8px;
+    left: 29px;
+}
+.horizontalLine {
+    height: 1px;
+    width: 108px;
+    border-bottom: 2px #C1C1C1 dotted;
+    /* float: left; */
+    
+    margin-top: 25px;
+    text-align: center;
+}
+.employee_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -188px -96px;
+    width: 56px;
+    height: 55px;
+    margin: 0 auto;
+}
+.employee_icon_active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -429px -96px;
+    width: 56px;
+    height: 55px;
+    margin: 0 auto;
+}
+.manager_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -268px -96px;
+    width: 56px;
+    height: 55px;
+    margin: 0 auto;
+}
+.manager_icon_active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -509px -96px;
+    width: 56px;
+    height: 55px;
+    margin: 0 auto;
+}
+.discussion_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -348px -96px;
+    width: 56px;
+    height: 55px;
+    margin: 0 auto;
+}
+.discussion_icon_active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -589px -96px;
+    width: 56px;
+    height: 55px;
+    margin: 0 auto;
+}
+.price_list_height {
+    height: 45px;
+    border-bottom: 1px #e4e4e4 solid;
+    width: 95%;
+    margin-left: 5px;
+}
+.price_list_height_noborder {
+    height: 45px;
+    width: 95%;
+    margin-left: 5px;
+}
+.prize_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -947px -38px;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-top: 15px;
+}
+.prize_text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #686868;
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.prize_close {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -852px -36px;
+    width: 18px;
+    height: 19px;
+    float: right;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.mail_list_height {
+    height: 75px;
+    border-bottom: 1px #e4e4e4 solid;
+    width: 95%;
+    margin-left: 5px;
+}
+.mail_list_height_noborder {
+    height: 75px;
+    width: 95%;
+    margin-left: 5px;
+}
+.mail_apprec {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -888px -39px;
+    width: 17px;
+    height: 11px;
+    float: left;
+    margin-top: 12px;
+}
+.mail_text {
+    font-size: 12px;
+    font-weight: normal;
+    color: #686868;
+    float: left;
+    margin-top: 8px;
+    margin-left: 13px;
+    width: 84%;
+    text-align: justify;
+}
+.mail_close {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -852px -36px;
+    width: 18px;
+    height: 19px;
+    float: right;
+    margin-top: 9px;
+}
+.orange_text {
+    color: #FFB401;
+    text-align: center;
+    font-size: 12px;
+}
+.grey_text {
+    color: #9B9B9B;
+    text-align: center;
+    font-size: 12px;
+    white-space: nowrap;
+    width: 100%;
+}
+.black_text {
+    color: #000;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+}
+.grey_small_text {
+    color: #676161;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 3px 0px;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.days_left_text {
+    color: #676161;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 3px 0px;
+    width: 146px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.grey_small_text:hover {
+    overflow: visible;
+}
+.grey_smaller_text {
+    color: #9B9B9B;
+    text-align: left;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 6px 0px;
+}
+.edit_designation_con {
+    height: 14px !important;
+}
+.edit_designation {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1034px -152px;
+    width: 14px;
+    height: 14px;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+}
+.edit_designation:hover,
+.edit_designation.active,
+.edit_designation:focus {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1009px -152px;
+    width: 14px;
+    height: 14px;
+     outline: 0; 
+}
+.white_text {
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.bgOrange {
+    background: #FFB400 !important;
+}
+.bgWhiteLable {
+    color: #fff;
+    border: 1px #B7B7B7 solid;
+    padding: 4px 10px !important;
+    cursor: pointer;
+    border: none;
+    font-size: 11px;
+    background: none;
+}
+/**************************** award popup css *************************************/
+
+.popup-header {
+    background: #FFB400;
+    width: 450px;
+    margin-top: -1px;
+    padding: 0px 0px;
+}
+.close-white {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -819px -35px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    cursor: pointer;
+	border:none;
+}
+.close-orange {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -645px -34px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    right: -7px;
+    top: -7px;
+}
+.popover {
+    max-width: 450px !important;
+}
+/***************************bootstrap css overwrite********************************/
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border: 0px !important;
+}
+.inner-tab .nav-tabs {
+    margin-bottom: 30px !important;
+}
+.popover {
+    border: 0px !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: -1px -2px 62px 1px rgba(143, 143, 143, 1);
+    -moz-box-shadow: -1px -2px 62px 1px rgba(143, 143, 143, 1);
+    box-shadow: -1px -2px 62px 1px rgba(143, 143, 143, 1);
+}
+.popover-content {
+    padding: 0px 14px;
+}
+.label {
+    padding: 5px 10px;
+    border-radius: 0px;
+}
+.disp-none {
+    display: none;
+}
+.popover.top>.arrow:after {
+    bottom: 1px;
+    margin-left: -10px;
+    content: " ";
+    border-top-color: #FFA800;
+    border-bottom-width: 0;
+}
+.modal-footer {
+    background: #FFB400;
+    height: 100px !important;
+}
+.modal-content {
+    border-radius: 0px !important;
+}
+.modal-header {
+    border: 0px !important;
+    color: #6D6D6D;
+    margin-top: 10px;
+    margin-bottom: -15px;
+	    padding: 5px 18px;
+}
+.progress{
+   width: 250px;
+    height: 10px;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+/*************************** Flip card css starts**********************/
+
+.ReactFlipCard {
+    margin: 5px;
+    text-align: center;
+}
+.ReactFlipCard,
+.ReactFlipCard__Front,
+.ReactFlipCard__Back {
+    box-sizing: border-box;
+    width: 207px;
+    height: 220px;
+}
+.ReactFlipCard__Front,
+.ReactFlipCard__Back {
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin-top: 10px;
+}
+.ReactFlipCard__Front {
+    background-color: #fff;
+    border-right: 1px #C6C6C6 solid;
+    border-left: 1px #C6C6C6 solid;
+    border-top: 1px #C6C6C6 solid;
+    /* border-bottom:2px #FFB400 solid; */
+}
+.ReactFlipCard__Back {
+    background-color: #FFB400;
+}
+#example {
+    text-align: center;
+}
+/*************************** Flip card css ends ************************/
+
+.reportee1_img {
+    background: url('../images/3.png') no-repeat;
+    width: 78px;
+    height: 79px;
+    margin: 0 auto;
+}
+.reportee2_img {
+    background: url('../images/4.png') no-repeat;
+    width: 78px;
+    height: 79px;
+    margin: 0 auto;
+}
+.reportee2_img_whiteBorder {
+    background: url('../images/4.png') no-repeat;
+    width: 78px;
+    height: 79px;
+    margin: 51px 5px -7px 10px;
+    border-radius: 50%;
+    border: 3px #fff solid;
+}
+.reportee3_img {
+    background: url('../images/5.png') no-repeat;
+    width: 78px;
+    height: 79px;
+    margin: 0 auto;
+}
+.reportee4_img {
+    background: url('../images/6.png') no-repeat;
+    width: 78px;
+    height: 79px;
+    margin: 0 auto;
+}
+.reportee5_img {
+    background: url('../images/7.png') no-repeat;
+    width: 78px;
+    height: 79px;
+    margin: 0 auto;
+}
+.reportee_name_text {
+    color: #6D6D6D;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 1px #D8D8D8 solid;
+    padding: 10px 0px;
+}
+.reportee_name_text_left {
+    color: #6D6D6D;
+    text-align: left;
+    font-size: 13px;
+    padding: 12px 43px;
+    padding-bottom: 1px;
+}
+.reportee_designation_text {
+    color: #6D6D6D;
+    text-align: center;
+    font-size: 13px;
+    padding: 0px 0px;
+    margin-top: 12px;
+}
+.reportee_designation_text_left {
+    color: #6D6D6D;
+    text-align: left;
+    font-size: 12px;
+    padding: 0px 44px;
+}
+.reportee_email_text {
+    color: #448BFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0px 0px;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.reportee_email_text:hover {
+    overflow: visible;
+}
+.reportee_email_text_left {
+    color: #448BFF;
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 7px 0px;
+}
+.white_border {
+    border: 1px #fff solid;
+    padding: 5px 0px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.review_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1243px -80px;
+    width: 11px;
+    height: 11px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 4px;
+}
+.review_icon_text {
+    background: none;
+    border: none;
+}
+/*accessibility*/
+
+.or_text {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding: 6px 0px;
+}
+.revert_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1208px -80px;
+    width: 12px;
+    height: 11px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 4px;
+}
+.revert_icon_text {
+    margin-left: -50px;
+}
+.reportee1_small_img {
+    background: url('../images/8.png') no-repeat;
+    width: 37px;
+    height: 37px;
+    margin-top: 15px;
+    float: left;
+    margin-left: -9px;
+}
+.reportee2_small_img {
+    background: url('../images/9.png') no-repeat;
+    width: 37px;
+    height: 37px;
+    margin-top: 15px;
+    float: left;
+    margin-left: -9px;
+}
+.reportee3_small_img {
+    background: url('../images/10.png') no-repeat;
+    width: 37px;
+    height: 37px;
+    margin-top: 15px;
+    float: left;
+    margin-left: -9px;
+}
+.reportee4_small_img {
+    background: url('../images/11.png') no-repeat;
+    width: 37px;
+    height: 37px;
+    margin-top: 15px;
+    float: left;
+    margin-left: -9px;
+}
+.rating_round{
+   background: orange;
+    padding: 4px 10px;
+    border-radius: 11px;
+    width: auto;
+    color: #ffffff;
+    font-size: 11px;
+    margin-top: 5px;
+    float: left;
+}
+.rating_round_blue {
+    background: #45B5FF;
+    padding: 4px 10px;
+    border-radius: 11px;
+    width: auto;
+    color: #ffffff;
+    font-size: 11px;
+    margin-top: 5px;
+}
+.rating_round_blue_1 {
+    background: #45B5FF;
+    padding: 4px 10px;
+    border-radius: 11px;
+    width: auto;
+    color: #ffffff;
+    font-size: 11px;
+    margin-top: 5px;
+    position: relative;
+    top: -55px;
+    left: 100px;
+}
+.emp_small_name_text {
+    color: #444444;
+    font-size: 13px;
+    padding: 4px 0px;
+}
+.emp_small_name_text_white {
+    color: #ffffff;
+    font-size: 13px;
+    padding: 4px 0px;
+}
+.section_title {
+    color: #6D6D6D;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.section_title_white {
+    color: #ffffff;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+/*accessibility*/
+
+.top_performor_border {
+    border-bottom: 1px #C4C4C4 solid !important;
+    padding: 0px 0px 14px 0px;
+    border: none;
+    background: none;
+    text-align: left;
+
+}
+.top_performor_border_not_clickable {
+    border-bottom: 1px #C4C4C4 solid !important;
+    padding: 0px 0px 14px 0px;
+    border: none;
+    background: none;
+    text-align: left;
+}
+/*accessibility*/
+
+.top_performor_border_blue {
+    border-bottom: 1px #2458AE solid;
+    padding: 10px 0px 14px 0px;
+}
+.desination_edit_container {
+    width: 400px;
+    /*  height: 50px; */
+    
+    background: #FFA800;
+    padding: 10px;
+}
+.save_btn {
+    background: #504D4D !important;
+    color: #fff !important;
+    padding: 6px 10px;
+    border-radius: 0px !important;
+    border: none;
+    float: right !important;
+    position: relative;
+    top: -4px;
+    left: 4px;
+    margin-right: 21px;
+}
+.white_border_btn {
+    background: black;
+    color: #fff;
+    padding: 5px 14px;
+    border-radius: 0px !important;
+    margin-top: 5px;
+    border: none;
+}
+.submit_btn {
+    background: #FFA800;
+    color: #ffffff;
+    border: 1px #fff solid;
+    padding: 5px 16px;
+    border-radius: 0px !important;
+    margin-top: 0px;
+    margin-right: 17px;
+}
+.modal_close {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -645px -34px;
+    width: 19px;
+    height: 19px;
+    float: left;
+    position: absolute;
+    right: -8px;
+    top: -9px;
+    z-index: 1;
+    cursor: pointer;
+	border:none;
+}
+.add_objective_img {
+    background: url('../images/addobjective.png') no-repeat;
+    width: 155px;
+    height: 178px;
+    margin: 0;
+    float: right;
+    margin-top: 38px;
+}
+/****************************** Accordion css starts*************************/
+
+.panel-heading {
+    border-radius: 0px;
+    position:relative;
+}
+.accor-obj .panel-default>.panel-heading {
+    background: #b5b5b5;
+    color: #fff;
+    border: 0px;
+    padding: 0;
+}
+/****************************** Accordion css starts*************************/
+
+.obj_ul {
+    margin: 10px;
+}
+.obj_ul_li {
+    margin: 4px 0px;
+    color: #6D6D6D;
+    font-weight: normal;
+    line-height: 20px;
+}
+.thumb_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1122px -38px;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 15px 10px;
+    cursor: pointer;
+    border: none;
+    /*accessibility*/
+}
+.list_icon {
+    background: url('../images/icon_listview.png') no-repeat;
+    width: 24px;
+    height: 20px;
+    float: right;
+    margin: 15px 10px;
+    cursor: pointer;
+    border: none;
+    /*accessibility*/
+}
+.list_outer_wrapper {
+   background:#fff7e4;
+}
+.list_border_text {
+    color: #696969;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.search_box {
+    width: 300px;
+    height: 32px;
+    /* float: right; */
+    margin-top: 11px;
+    /* margin-right: 31px; */
+    position: relative;
+    left: 36%;
+    /* margin-left: -150px; */
+}
+.search_box_new {
+    width: 600px;
+    height: 32px;
+    float: right;
+    margin-top: 22px;
+    position: relative;
+}
+.Search_box_input {
+    padding-left: 5px;
+    background: url('../images/icon_search.png') no-repeat;
+    width: 21px;
+    height: 20px;
+    float: right;
+    position: absolute;
+    top: 4px;
+    right: 3%;
+    cursor: pointer;
+}
+textarea:focus,input:focus {
+    outline: none;
+}
+.modal.in .modal-dialog {
+    width: 900px;
+}
+.blue {
+    background: #4489FE;
+}
+.dark-blue {
+    background: #2D63BD;
+}
+.light-blue {
+    background: #366ECD;
+}
+.spanControl {
+    color: #ffffff;
+    font-size: 13px;
+    padding: 20px 0px;
+}
+.spanControl span {
+    background: #FFB300;
+    color: #fff;
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    padding: 6px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.emp_name_white {
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+    top: -78px;
+    left: 104px;
+    width: 154px;
+    text-align: left;
+}
+.emp_ver_line {
+    width: 174px;
+    height: 3px;
+    border-bottom: 3px #fff solid;
+    position: relative;
+    top: -69px;
+    left: 85px;
+}
+.emp_hor_line {
+    width: 3px;
+    height: 53px;
+    border-right: 3px #fff dotted;
+    position: relative;
+    top: -21px;
+    left: 3px;
+}
+.label-default {
+    background: none;
+}
+#past-chart {
+    min-width: 310px;
+    height: 400px;
+    margin: 0 auto;
+}
+.reviwed {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1210px -174px;
+    width: 37px;
+    height: 37px;
+    float: left;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.search_input {
+    padding-left: 4px;
+    padding: 4px 4px 2px 7px;
+    width: 100%;
+    padding-right: 39px;
+}
+.search_input_new {
+    padding-left: 4px;
+    padding: 4px 4px 2px 7px;
+    width: 70%;
+    padding-right: 39px;
+}
+.listView .ReactFlipCard,
+.listView .ReactFlipCard__Front,
+.listView .ReactFlipCard__Back {
+    width: 48% !important;
+    height: 50px;
+}
+.listView .ReactFlipCard__Front,
+.listView .ReactFlipCard__Back {
+    border-left: 1px #C6C6C6 solid;
+    border-top: 1px #C6C6C6 solid;
+    border-bottom: 1px #C6C6C6 solid;
+}
+.test {
+    width: 50%;
+    height: 200px;
+}
+/* home page starts by surya */
+
+.disp-none {
+    display: none;
+}
+.slider-img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-control {
+    display: none;
+}
+.appraisal-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -601px -313px;
+    width: 31px;
+    height: 26px;
+    float: left;
+    margin-right: 16px;
+}
+.wlq-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -320px -25px;
+    width: 26px;
+    height: 30px;
+    float: left;
+    margin-right: 16px;
+}
+.task {
+    position: fixed;
+    top: 200px;
+    right: -298px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 300px;
+    padding: 18px;
+    transition: 0.3s right;
+}
+.task.active {
+    right: 0;
+}
+.task ul li {
+    float: left;
+    width: 100%;
+    padding: 14px;
+    cursor: pointer;
+}
+.clr-yellow {
+    color: #FFDF00;
+}
+.pl12 {
+    padding-left: 12px;
+}
+.task-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -200px -30px;
+    width: 37px;
+    height: 28px;
+    float: left;
+    cursor: pointer;
+border:none;
+}
+.task-btn {
+    position: absolute;
+    left: -53px;
+    background: rgba(0, 0, 0, 0.51);
+    padding: 8px 8px;
+    top: 0;
+    border: none;
+}
+.mt0 {
+    margin-top: 0;
+}
+.right-side .carousel-caption {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    text-align: left;
+    /* width: auto; */
+    
+    float: left;
+    width: 485px;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 20px 11px;
+    bottom: auto;
+}
+.right-side .carousel-caption span.question {
+    font-size: 26px;
+    background: rgba(239, 148, 17, 0.88);
+    padding: 18px 20px;
+    float: left;
+    margin-top: 15px;
+    width: 465px;
+    font-weight: normal;
+}
+.lft {
+    float: left;
+}
+.border-grey {
+    border-bottom: 1px solid #7A828D;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.apprai-lg {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -30px -99px;
+    width: 47px;
+    height: 46px;
+    margin: 0 auto;
+    border: none;
+}
+.appraisal-menu li.active >.apprai-lg,
+.appraisal-menu li:hover >.apprai-lg {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -99px -99px;
+    width: 47px;
+    height: 46px;
+}
+.wlq-lg {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -30px -158px;
+    width: 47px;
+    height: 47px;
+    margin: 0 auto;
+    border: none;
+    /*accessibility*/
+}
+.appraisal-menu li.active >.wlq-lg,
+.appraisal-menu li:hover >.wlq-lg {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -99px -158px;
+    width: 47px;
+    height: 47px;
+}
+.pip-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -30px -225px;
+    width: 47px;
+    height: 47px;
+    margin: 0 auto;
+    border: none;
+    /*accessibility*/
+}
+.appraisal-menu li.active >.pip-icon,
+.appraisal-menu li:hover>.pip-icon,
+.pip-icon.active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -99px -225px;
+    width: 47px;
+    height: 47px;
+}
+.left-side ul li {
+    float: left;
+    width: 100%;
+    color: #A4A2A5;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 12px;
+    cursor: pointer;
+    list-style: none;
+}
+.left-side ul li:hover>a>span,
+.left-side ul li:hover {
+    color: white;
+}
+#Home-page {
+    /*    background: black; */
+    
+    background: url('../images/bg.jpg') no-repeat 0 0;
+}
+#left-page {
+    width: 12%;
+}
+.objec_l1 .panel-heading {
+    background: #929292;
+    color: white;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+}
+.objec_l1 .panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 0px;
+    margin-top: 0;
+    /* border-bottom: none; */
+    
+    border-top: 1px solid white;
+}
+.objec_l1 .panel-group a {
+    display: block;
+    padding: 8px 7px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.scrollarea .scrollbar-container.vertical {
+    background: #ededed!important;
+    opacity: 1!important;
+    border-radius: 7px;
+    width: 5px!important;
+}
+.scrollarea .scrollbar-container.vertical .scrollbar {
+    background: #FFB400!important;
+}
+.objec_l1 .scrollarea {
+    height: 70px;
+    float: left;
+    width: 100%;
+}
+.objec_l1 h5 {
+    font-weight: bold;
+}
+.objec_l1 ul {
+    margin-bottom: 15px;
+}
+.objec_l1 ul li {
+    float: left;
+    width: 100%;
+    padding-right: 12px;
+}
+.obj-ul li {
+    list-style-type: disc !important;
+    list-style-position: inside;
+    padding: 1px 2px;
+}
+.measure-ul li {
+    font-size: 12px;
+    list-style-type: disc !important;
+}
+.obj-ul-new li ,.text-editor ul li,.text-editor ol li{
+    list-style-position: inside;
+    padding: 1px 2px;
+    font-size: 12px;
+}
+.text-editor ul{
+    padding-left: 41px;
+}
+.award-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -947px -38px;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.orange-round {
+    width: 20px;
+    background: #FFB400;
+    border-radius: 50%;
+    color: white;
+    height: 20px;
+    padding: 4px 6px;
+    float: left;
+    margin: 0;
+    margin-left: 5px;
+    position: relative;
+    top: -3px;
+}
+.email-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -888px -39px;
+    width: 17px;
+    height: 11px;
+    float: left;
+    margin-top: 6px;
+}
+.mt11{margin-top: 11px;}
+.mt20 {
+    margin-top: 20px;
+}
+.mt5{margin-top:5px;}
+.mt30 {
+    margin-top: 40px;
+}
+.brderDot{    border: 1px dashed #ccc;}
+.measure-ul li,
+.appre-ul li {
+    padding-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+.accor-obj .appre-ul li {
+    padding-bottom: 10px;
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    color: #6D6D6D;
+    margin-top: 11px;
+}
+.hr-line {
+    border-color: #D5D5D5;
+    width: 97%;
+    margin: 23px 8px;
+}
+.objec_l1 .panel-group a[aria-expanded=true] {
+    background: #FFB400 !important;
+    color: white;
+}
+
+.font-small {
+    text-align: right;
+    font-size: 11px;
+}
+.m10 {
+    margin: 10px;
+}
+.m16 {
+    margin: 16px;
+}
+.clr-blue {
+    color: #458AFF;
+}
+.accor-obj .panel .panel-title a {
+    padding: 5px 15px;
+    display: block;
+    text-decoration: none;
+    background: url('../images/icon_arrow_down.png') no-repeat 0 0;
+    width: 100%;
+    background-position: right;
+    background-position: 98%;
+    font-size: 13px;
+}
+.accor-obj .panel-group a[aria-expanded=true] {
+    color: white;
+    width: 100%;
+    background:url(../images/icon_arrow_top.png) #9c9c9c no-repeat 0 0 ;
+    width: 100%;
+    background-position: right;
+    background-position: 98%;
+}
+/* chart */
+
+.barline-chart {
+    height: 200px;
+    height: 170px;
+    margin-top: 20px;
+}
+.user-pic {
+    background: url('../images/9.png') no-repeat -2px -1px;
+    width: 34px;
+    height: 34px;
+    float: left;
+    margin-right: 13px;
+}
+.table-div table th {
+    vertical-align: middle!important;
+    background: #FFAA05;
+    color: white;
+    padding: 9px!important;
+}
+.table-div table tbody tr:nth-child(odd)>td {
+    background: white;
+}
+/* l2 mangaer */
+
+.rght-btn {
+    background: #9CB3DC;
+    color: white;
+    padding: 9px 24px;
+    border: none;
+    float: right;
+    margin: 8px;
+}
+.orange-btn {
+    background: #FFB400;
+	text-transform: uppercase;
+}
+.bg-black {
+    background: #080B10;
+}
+.table-div .table>tbody>tr>td,
+.table-div .table>tbody>tr>th,
+.table-div .table>thead>tr>td,
+.table-div .table>thead>tr>th {
+    border: 1px solid #E6E6E6 !important;
+}
+.table-div .table>tbody>tr>td {
+    color: #898989!important;
+    vertical-align: middle;
+    background: white!important;
+    padding: 7px 10px;
+}
+.table-div .table>thead>tr>th {
+    text-align: center;
+}
+.table-div .table>thead>tr>th:nth-child(2),
+.table-div .table>thead>tr>th:nth-child(2) {
+    text-align: left;
+}
+.table-div .table>tbody>tr>td:nth-child(5) {
+    border-right: none!important;
+}
+.table-div .table>tbody>tr>td:nth-child(6) {
+    border-left: none!important;
+}
+.table-div .table>tbody>tr>td:nth-child(1),
+.table-div .table>tbody>tr>td:nth-child(3),
+.table-div .table>tbody>tr>td:nth-child(4) {
+    text-align: center;
+}
+.mr0 {
+    margin-right: 0!important;
+}
+.mr15{
+    margin-right: 15px;
+}
+.light-grey {
+    background: #F9F9F9
+}
+.sel-arrw {
+    background-color: transparent;
+    margin-right: 13px;
+    margin-top: 8px;
+    float: right;
+}
+.bordere5 {
+    border-right: 1px solid #e5e5e5;
+}
+.cmnts-div {
+    width: 323px;
+    height: 43px;
+    overflow: hidden;
+}
+.orange-clr {
+   color: #FFAA05;
+    font-size: 13px;
+}
+.more-btn {
+    font-size: 12px;
+    float: right;
+}
+.user-img1 {
+    background: url('../images/3.png') no-repeat 0 0;
+    width: 78px;
+    height: 79px;
+    float: left;
+    margin-right: 25px;
+}
+.border-grey {
+    border-bottom: 1px solid #e5e5e5;
+}
+.clr-blue {
+    color: rgba(0, 0, 255, 0.75);
+}
+.barchart {
+    width: 98%;
+    height: 175px;
+}
+.barchart-big {
+    width: 100%;
+    height: 279px;
+}
+.linechart {
+    height: 200px;
+}
+.linechart2 {
+    height: 160px;
+}
+.hr-line {
+    margin: 0;
+    margin-top: 10px;
+    border: 1px solid #e5e5e5;
+}
+.fontbold {
+    font-weight: bold;
+}
+.fontboldorange {
+    color: #FFB400;
+    font-size: 18px;
+}
+3.l1_accor ul li {
+    /*list-style-type: none;*/
+}
+.awd-ul li {
+    padding: 3px;
+    float: left;
+    width: 100%;
+}
+.padd-btm30 {
+    padding-bottom: 30px;
+}
+.rev-btn{
+   background: #FFAA05 !important;
+    border: none;
+    color: #fff;
+    float: right;
+     padding: 8px 16px;
+}
+.rev-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1171px -185px;
+    width: 12px;
+    height: 11px;
+    float: left;
+    margin-top: 6px;
+    margin-right: 9px;
+}
+.employee-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -188px -96px;
+    width: 56px;
+    height: 55px;
+    float: none;
+    margin: 0 auto;
+}
+.manager_iconactive {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -509px -96px;
+    width: 56px;
+    height: 55px;
+    float: none;
+    margin: 0 auto;
+}
+.nowrap {
+    white-space: nowrap;
+}
+.chart-wd {
+    width: 100%;
+    height: 200px;
+}
+#Home-page ul li {
+    list-style-type: none;
+}
+.select-tag {
+    border-radius: 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+    text-transform: capitalize;
+    color: #a5a5a5;
+}
+.sel-pos {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sel-pos-new {
+    position: absolute;
+    top: -10px;
+    left: 3px;
+}
+.list-img {
+    background: url('../images/9.png') no-repeat;
+    width: 37px;
+    height: 37px;
+    margin-top: 5px;
+    float: left;
+}
+.padd-btm15 {
+    padding-bottom: 15px;
+}
+.comments-pop {
+    background: #615B4F;
+    border: none;
+    color: white;
+    padding: 15px 21px;
+}
+.comments-pop li {
+    padding: 2px 10px;
+}
+.comments-pop .arrow:after {
+    border-left-color: #615B4F !important;
+}
+.eye-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1175px -239px;
+    width: 27px;
+    height: 14px;
+    margin-top: 4px;
+    margin-right: 9px;
+    float: left;
+}
+.comment-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1227px -240px;
+    width: 20px;
+    height: 17px;
+    float: right;
+    position: relative;
+    right: 24%;
+    margin-top: 4px;
+}
+.bgWhiteLable.activeclass{
+   background: #FF9100!important;
+    color: white;
+    border: 1px solid #FF9100 !important;
+    border-radius: 4px;
+}
+.list_icon.active,.list_icon:hover {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1199px -38px;
+    width: 24px;
+    height: 20px;
+}
+.thumb_icon.active,.thumb_icon:hover {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1239px -38px;
+    width: 20px;
+    height: 20px;
+}
+.linechart1 {
+    height: 100px;
+    width: 472px;
+}
+.back-icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1089px -153px;
+    width: 8px;
+    height: 13px;
+    float: left;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.obj_ul .panel-body {
+    padding: 0px;
+}
+.rating-div {
+    padding: 18px;
+}
+.employee-icon.active1 {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -668px -96px;
+    width: 56px;
+    height: 55px;
+}
+.l1_accor .panel-body {
+    padding: 0;
+}
+.horizontalLine.active {
+    border-bottom: 2px #FFAA05 dotted;
+}
+#iframe {
+    top: 0;
+}
+.manager_icon_img {
+    background: url('../images/5.png') no-repeat 0 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.round_circle {
+    width: 56px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#left-container {
+    width: 12% !important;
+    /*added by sandhya*/
+    /* background: url('../images/bg.jpg') no-repeat 0 0; */
+    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /*added by sandhya ends*/
+}
+.rght-wd {
+    width: 88% !important;
+}
+.close_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -920px -152px;
+    width: 11px;
+    height: 11px;
+    float: right;
+    cursor: pointer;
+    border: none;
+}
+.close_icon_obj {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -920px -120px;
+    width: 12px;
+    height: 10px;
+    float: right;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.left-text {
+    text-align: left;
+}
+.mt8percent {
+    margin-top: 8%;
+}
+.browse-btn {
+    position: absolute;
+    right: 18px;
+    width: 95px;
+    top: 19px;
+    opacity: 0;
+    z-index: 1;
+}
+.file-btn {
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+    top: 15px;
+    margin: 0!important;
+    padding: 8px 13px!important;
+    right: 15px;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #D49701!important;
+}
+.uploaded-text {
+    padding: 5px;
+}
+.mce-panel {
+    overflow: hidden;
+}
+.mw-logo {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -26px -326px;
+    width: 46px;
+    height: 15px;
+    float: left;
+    padding-top: 30px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border: none;
+    cursor: default;
+}
+.logo-span {
+    color: white;
+    /* font-weight: bold; */
+    
+    font-size: 18px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+.menu-accordion a[aria-expanded="true"] {
+    border-bottom: 0.5px solid #fff;
+    color: #fff;
+}
+.rev-span {
+    position: relative;
+    top: 23px;
+    font-size: 13px;
+    text-align: center;
+    color: #9B9B9B;
+}
+.appraisal-stage {
+    display: none;
+}
+.appraisal-stage.activeclass {
+    display: block;
+    background-color: white!important;
+}
+.tbl_width.active {
+    width: 97% !important;
+}
+.listView .ReactFlipCard__Front {
+    float: left;
+    width: 100%!important;
+    position: relative;
+}
+.listView .ReactFlipCard__Back {
+    float: left;
+    width: 100%!important;
+}
+.listView .review_icon {
+    position: static;
+    margin-left: 30px;
+}
+.listView .review_icon_text {
+    margin: 0px;
+    float: left;
+    margin-left: 10px;
+}
+.listView .revert_icon {
+    margin-left: 30px;
+}
+.listView .edit_list {
+    margin-left: 50px;
+}
+.listView .revert_icon_text {
+    float: left;
+    margin-left: 7px;
+}
+.grid-listcontainer .dropdown {
+    width: 251px;
+}
+.grid-listcontainer .dropdown button {
+    width: 59%;
+}
+.flip-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+}
+.revert-status {
+    border-bottom: 2px solid #FFA800;
+}
+.listview_new {
+    border-left: 1px #c6c6c6 solid;
+    border-right: 1px #c6c6c6 solid;
+    border-top: 1px #c6c6c6 solid;
+    width: 48%;
+    float: left;
+    margin: 1%;
+    padding: 5px 0px;
+    margin-left: 4px;
+    margin-top: 11px;
+    padding: 5px 1px;
+    position: relative;
+	height: 81px;
+    overflow: hidden;
+}
+.listView .or_text {
+    margin-top: 10px;
+}
+.listView .white_border {
+    margin-top: 10px;
+}
+.listView .ReactFlipCard__Back .edit-back,
+.gridView .ReactFlipCard__Back .edit-back {
+    background: #00A652;
+    height: 100%;
+}
+.listView .ReactFlipCard__Back .reminder,
+.gridView .ReactFlipCard__Back .reminder {
+    background: #ffb400;
+    height: 100%;
+}
+.margin-center {
+    margin: 0 auto;
+    float: none;
+}
+.green-border {
+    border-bottom: 2px solid #00A652;
+    height: 100%;
+}
+.red-border {
+    border-bottom: 2px solid #FF5A00;
+    height: 100%;
+}
+.myteam_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -30px -377px;
+    width: 46px;
+    height: 46px;
+    float: none;
+    margin: 0 auto;
+}
+.myteam_icon.active,
+.appraisal-menu li.active >a>.myteam_icon,
+.appraisal-menu li:hover>a >.myteam_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -96px -380px;
+    width: 47px;
+    height: 47px;
+}
+.drop-down {
+    float: left;
+    position: absolute;
+    top: 0;
+    border: 1px solid rgba(41, 40, 40, 0.29);
+    width: 21%;
+    top: 38px;
+    z-index: 1;
+    background: white;
+    display: none;
+}
+.select-filter {
+    border: 1px solid rgba(113, 112, 112, 0.41);
+    padding: 6px;
+}
+.drop-down li {
+    list-style-type: none;
+}
+button {
+    cursor: pointer;
+}
+.cmn-popup .arrow:after {
+    border-top-color: white !important;
+}
+.orange-clr {
+    color: #FFAA05;
+}
+.desination_edit_container .arrow:after {
+    border-right-color: #FFAA05 !important
+}
+.ml0 {
+    margin-left: 0;
+}
+.list-none {
+    list-style-type: none;
+}
+.rev-text {
+    position: absolute;
+    color: #FFAA05 !important;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    top: 8px;
+    /* text-transform: uppercase; */
+    
+    left: 3px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+td {
+    position: relative;
+}
+.mce-path-item.mce-last {
+    display: none;
+}
+.rate_nw b {
+    float: right;
+    margin-top: 13px;
+    /* padding-right: 1px; */
+    
+    position: relative;
+    right: 5px;
+}
+.back-div {
+    cursor: pointer;
+    color: #9E9E9E;
+}
+.accor-obj .awd-ul li {
+    padding: 3px;
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    color: #6D6D6D;
+}
+.obj_title {
+    color: #6B6B6B;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+.textarea_hg {
+    height: 100px;
+}
+.search_container_new {
+    height: 42px;
+}
+.modal-title {
+    margin: 0;
+    /* line-height: 1.42857143; */
+    /* color: #FFB400; */
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 3px;
+}
+.srch-supervisor {
+    position: absolute;
+    top: 5px;
+    right: 33%;
+}
+#level1-manager {
+    margin-right: 10px;
+}
+.round_circle .activeClass {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid #FFAA05 !important;
+    padding: 0;
+}
+#header {
+    background: black;
+    z-index: 1;
+}
+.delete_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -430px -310px;
+    width: 41px;
+    height: 41px;
+    float: right;
+    margin-top: 22px;
+    margin-left: 26px;
+    cursor: pointer;
+    border: none;
+    /*accessibility*/
+}
+.bgWhiteLable .manager-rev {
+    background: red;
+}
+.scrollarea {
+    float: left;
+    width: 100%;
+    height: 200px;
+}
+.delete_icon.active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -510px -310px;
+    width: 41px;
+    height: 41px;
+}
+.inner-span-que {
+    margin-top: 10px;
+    padding: 0;
+    background: transparent;
+    font-size: 18px;
+}
+.text-up {
+    text-transform: uppercase;
+}
+#Home-page {
+    overflow-y: hidden;
+    height: 100%;
+}
+.font13 {
+    font-size: 13px;
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: orange !important;
+}
+.main-contain {
+    height: 100%;
+}
+.html_class {
+    height: 100%;
+}
+.carousel-indicators {
+    position: fixed;
+    bottom: 120px;
+    left: 50%;
+}
+.rght {
+    float: right !important;
+}
+.progress-bar {
+    background-color: orange;
+}
+.rght42 {
+    font-size: 12px;
+    float: left;
+    text-align: right;
+    top: 5px;
+}
+.gridView .ReactFlipCard__Back,
+.gridView .ReactFlipCard__Front {
+    padding: 0;
+}
+.grid-edit {
+    position: relative;
+    top: 90px;
+}
+.gridView .review_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1243px -80px;
+    width: 11px;
+    height: 11px;
+    float: left;
+    margin-left: 21px;
+    position: relative;
+    left: 34px;
+}
+.gridView .edit_icon {
+    position: relative;
+    left: 61px;
+    margin-left: 0;
+}
+.gridView .revert_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1208px -80px;
+    width: 12px;
+    height: 11px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 4px;
+    margin-right: 13px;
+}
+.orange-border {
+    border-bottom: 2px solid orange;
+    height: 100%;
+}
+.mt40 {
+    margin-top: 40px !important;
+}
+.reminder_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1165px -77px;
+    width: 23px;
+    height: 18px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 13px;
+    margin-top: 2px;
+}
+.listView .reminder_icon {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.manager-rev.active {
+    background: orange !important;
+    color: white !important;
+}
+.gridView,
+.listView {
+    padding-left: 23px;
+}
+.reminderall_btn {
+    float: right;
+    background: #ffb400;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+    padding: 6px 6px;
+    position: absolute;
+    right: 31px;
+    /* top: 85px; */
+}
+.reminderall_btn .reminder_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1165px -77px;
+    width: 23px;
+    height: 18px;
+    float: left;
+    margin-right: 45px;
+    margin-left: 2px;
+    margin-top: 0px;
+    font-size: 10px;
+    margin-right: 6px;
+}
+/*sandhya*/
+
+.popover.right>.arrow:after {
+    border-right-color: #FFA800;
+}
+.kca_li {
+    list-style-type: none !important;
+}
+.kca_ul {
+    margin-left: 0px !important;
+}
+.text-align {
+    text-align: center;
+    margin-top: 29px;
+}
+.no-border {
+    border-bottom: none;
+}
+.bg-grey {
+    background: #EFEFEF;
+}
+.padding-style .panel-body {
+    padding-left: 0;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.padding-style .btn-group {
+    float: right;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+}
+.padding-style .btn-default {
+    border-color: transparent !important;
+}
+.display_none {
+    display: none;
+}
+.cmn-btn1 {
+    color: white;
+    float: none;
+    display: table;
+    background: #FFA800;
+    padding: 4px 15px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.outer_div {
+    padding: 18px;
+    border-top: 1px solid lightgray;
+    text-align: right;
+}
+.outer_div span {
+    font-family: arial;
+    font-weight: bold;
+}
+.below_archiv {
+    background: #FFA800;
+    padding: 21px;
+}
+.accor-obj1 .panel-group a[aria-expanded=true] {
+    color: white;
+    width: 100%;
+    background: url('../images/icon_arrow_top.png') #3A3A3A no-repeat 0 0;
+    width: 100%;
+    background-position: right;
+    background-position: 98%;
+}
+.button_sec,
+.button_sec1 {
+    margin-top: 10px;
+}
+.button_sec button,
+.button_sec1 button {
+    margin-left: 5px;
+}
+.accor-obj .tab-content {
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.mar0 {
+    margin: 0px;
+    width: 100% !important;
+}
+.accor-obj1 .panel-body {
+    padding: 0px;
+}
+.paddingarea {
+    padding: 11px 2px;
+}
+.panel-group .panel+.panel {
+    margin-top: 0px;
+}
+.text_style {
+    padding: 20px;
+    padding-left: 42px;
+    font-family: arial;
+    font-weight: 600;
+    color: #777;
+}
+.career_img {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1056px -303px;
+    width: 21px;
+    height: 22px;
+    float: left;
+}
+.padding20 {
+    padding: 20px;
+}
+.brdr_bttm {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    width: 97%;
+}
+.career_ul li {
+    font-family: arial;
+    font-size: 13px;
+    list-style-type: none;
+}
+.padding8 {
+    padding: 8px;
+}
+.brdr_right {
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+.idp_img {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1114px -303px;
+    width: 21px;
+    height: 21px;
+    float: left;
+}
+.mrgn_right {
+    margin-right: 20px;
+}
+.ena_img {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1170px -303px;
+    width: 21px;
+    height: 21px;
+    float: left;
+}
+.kca-accor .panel-body {
+    padding: 0;
+}
+.kca-rating {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+    background: white;
+    padding: 7px 15px;
+}
+.p15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.qplc-ul li {
+    color: #8E8E8E;
+    padding: 10px;
+    list-style: none;
+    width: 17%;
+    float: left;
+    text-align: center;
+    /* display: flex; */
+    min-height: 69px;
+    padding: 20px;
+    padding-top: 30px;
+    color: black;
+}
+
+ .qplc-ul li:first-child{         background: #ffa800;
+    font-size: 30px;
+    color: white;
+    width: 10%;
+    line-height: 26px;
+    padding-top: 29px;
+	}
+ .qplc-ul	{border: 1px solid #ccc;
+    display: flex;
+	}
+	
+	 .qplc-ul li span{
+	 float:left;
+	 }
+   .prev_quarter li{float: left;
+    width: 15%;
+    background: #d7d7d7;
+    list-style-type: none;
+    color: white;
+    min-height: 66px;
+    text-align: center;
+    padding: 8px;
+    margin-right: 8px;
+	}
+	
+	   .prev_quarter li>label{    font-size: 38px;
+    margin-right: 22px;
+    margin-top: 7px;
+    font-weight: normal;
+	}
+	.prev_quarter li>span{        line-height: 56px;
+    margin-right: 22px;
+    margin-top: 7px;
+    font-weight: normal;
+    float: right;
+    font-size: 21px;
+	}
+	
+	
+	
+.radio-normal {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -978px -153px;
+    width: 16px;
+    height: 14px;
+    float: left;
+    margin-top: 2px;
+       margin-right: 7px;
+    cursor: pointer;
+	border:none;
+}
+.dv-star-rating-star{
+border:none;
+background:transparent;
+}
+.myteam-round .radio-normal {
+    margin-right: 4px;
+}
+.radio-normal.active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -978px -121px;
+    width: 16px;
+    height: 14px;
+	outline:none;
+}
+/*sandhya*/
+/*code changed by vaishnavi*/
+
+.dv-star-rating {
+    top: 4px;
+    float: right;
+    color: #c5c5c5;
+    font-size: 20px;
+}
+/*code changed by vaishnavi ends*/
+/*code added by vaishnavi*/
+
+.spn_txt {
+    text-transform: uppercase;
+    float: left;
+    width: 70%;
+    margin-top: 7px;
+    font-size: 12px;
+}
+.round_txt {
+    width: 30px;
+    height: 30px;
+    background: #D89000;
+    border-radius: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.marginTop33 {
+    margin-top: 33px;
+}
+.border-line {
+    border: 1px solid #EBEBEB;
+}
+.bdr-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-right: 1px solid #eee;
+}
+.clr_wd {
+    width: 30%;
+    float: left;
+}
+.pdng0 {
+    padding: 0px;
+}
+.strength_weekness {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    list-style: none;
+}
+.strng {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.full_li {
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+}
+.orange_dot {
+    width: 8px;
+    height: 8px;
+    background: #FEA700;
+    border-radius: 26px;
+    float: left;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.best_n_cls {
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+    padding: 6px;
+    border: none;
+    margin-top: 20px;
+}
+.sec_dv {
+    float: left;
+    margin-top: 20px;
+}
+.bdr_left {
+    border-right: 1px solid #e5e5e5;
+}
+.pdng_lftrgt {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rate_nw b {
+    float: right;
+    margin-top: 13px;
+    /* padding-right: 1px; */
+    
+    position: relative;
+    /* width: 100%; */
+    /* left: 55px; */
+    
+    margin-right: 16px;
+}
+.btn_dv {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.dwnd_pdf {
+    float: right;
+    padding: 5px;
+    background: #FFA800;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    margin-right: 10px;
+}
+.more_dv {
+    float: right;
+}
+.more_txt {
+    float: left;
+}
+.more_img {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1037px -123px;
+    width: 6px;
+    height: 9px;
+    margin-top: 6px;
+    float: left;
+    margin-left: 5px;
+}
+.excd_exct {
+    float: right;
+    margin-top: 13px;
+}
+.wld_hed {
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    color: #F9AA02;
+    border-bottom: 2px solid #DFDFDF;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.ratng_yrs {
+    float: left;
+    width: 100%;
+}
+.ratng_head {
+    /* font-weight: bold; */
+    
+   font-weight: bold;
+    font-size: 14px;
+    color: #696969;
+    padding: 5px;
+   
+    padding: 8px 5px 8px 5px;
+}
+#bar-chart-grid1 tspan{
+    font-size:9px !important;
+}
+.strength_weaknes {
+    font-family: arial;
+    background: #EFEFEF;
+    border-top: 2px solid #DFDFDF;
+    padding: 5px;
+}
+.pdn_lf {
+    padding-left: 0px !important;
+    padding-right: 0px;
+}
+.strng_dv {
+    color: #F9AA02;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.comnts_sec {
+    color: #000;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.rd_btn {
+    text-transform: uppercase;
+    color: #F15557;
+    border: 1px solid #F15557;
+    font-size: 12px;
+    background: #fff;
+    white-space: nowrap;
+    margin-left: 5px;
+    font-family: arial;
+}
+.blue_btn {
+    text-transform: uppercase;
+    color: #428EFD;
+    border: 1px solid #428EFD;
+    font-family: arial;
+    font-size: 12px;
+    background: #fff;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+.ltblue_btn {
+    text-transform: uppercase;
+    color: #4EDEEA;
+    border: 1px solid #4EDEEA;
+    font-size: 12px;
+    background: #fff;
+    white-space: nowrap;
+    margin-left: 5px;
+    font-family: arial;
+}
+.purple_btn {
+    text-transform: uppercase;
+    color: #BF59FE;
+    border: 1px solid #BF59FE;
+    font-size: 12px;
+    background: #fff;
+    margin-left: 5px;
+    white-space: nowrap;
+    font-family: arial;
+}
+.green_btn {
+    text-transform: uppercase;
+    color: #7FDA7D;
+    border: 1px solid #7FDA7D;
+    font-size: 12px;
+    background: #fff;
+    white-space: nowrap;
+    margin-left: 5px;
+    font-family: arial;
+}
+.diff_btn {
+    text-transform: uppercase;
+    color: #8178DD;
+    border: 1px solid #8178DD;
+    font-size: 12px;
+    background: #fff;
+    white-space: nowrap;
+    margin-left: 5px;
+    font-family: arial;
+}
+.margnvalus {
+    margin-top: 20px;
+}
+.linechart_gridpg {
+    height: 340px;
+}
+.mrgnlt {
+    margin-left: 115px;
+}
+.brd_wlq {
+    border-bottom: 2px solid #DFDFDF;
+}
+.positn_wlq {
+    position: relative;
+    /* left:120px; */
+}
+.mrgnlt120 {
+    margin-left: 240px;
+}
+.mrgnlt230 {
+    margin-left: 230px;
+}
+#chart_horizonalbar {
+    width: 100%;
+    height: 300px;
+    font-size: 11px;
+}
+/*code ends*/
+
+.wlq-title {
+    color: #fff;
+    font-size: 94px;
+    font-weight: normal;
+}
+.wlq-title.orange {
+    color: #FD9900;
+    font-size: 61px;
+    font-weight: normal;
+    margin-top: -28px;
+}
+.wlq-title.orange1 {
+    font-size: 87px;
+}
+.user_icon {} .pwd_icon {} .login-text {
+    width: 100%;
+    padding: 10px;
+    padding-left: 45px;
+    color: black;
+}
+.login-div {
+    position: relative;
+    top: 144px;
+}
+.login-div .head {
+    color: white;
+    font-size: 27px;
+}
+.login-btn {
+    background: #FFA800;
+    border: none;
+    color: white;
+    width: 100%;
+    /* margin: 10px; */
+    
+    padding: 10px;
+    font-size: 18px;
+}
+/*others*/
+
+.padding8 {
+    padding: 8px 0px;
+}
+.cmmn_style {
+    font-family: arial;
+    font-weight: 600;
+}
+.enabler_img {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1037px -123px;
+    width: 6px;
+    height: 9px;
+    float: right;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.align {
+    text-align: right;
+    font-family: arial;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.career_img {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1226px -303px;
+    width: 21px;
+    height: 21px;
+    float: left;
+}
+.idp_img1 {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -894px -79px;
+    width: 6px;
+    height: 6px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 12px;
+}
+.idp_img2 {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1114px -303px;
+    width: 21px;
+    height: 21px;
+    float: left;
+}
+#others .add_objectives_Edit_btn {
+    padding: 6px 15px;
+}
+.pr5 {
+    padding-right: 5px;
+}
+/*sandhya*/
+
+.user_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -601px -183px;
+    width: 21px;
+    height: 21px;
+    float: left;
+    position: absolute;
+    top: 9px;
+    left: 22px;
+}
+.pwd_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -601px -236px;
+    width: 19px;
+    height: 24px;
+    position: absolute;
+    top: 7px;
+    left: 21px;
+}
+.archive-flip {
+    border: 1px solid rgba(128, 128, 128, 0.58);
+    padding: 10px 11px;
+    /* margin-bottom: 20px; */
+    
+    height: 225px;
+}
+.pl0 {
+    padding-left: 0;
+}
+.edit_obj:hover {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -340px -310px;
+    width: 41px;
+    height: 41px;
+}
+.delete_icon:hover {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -510px -310px;
+    width: 41px;
+    height: 41px;
+}
+/*my team*/
+
+.appraisal_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -949px -153px;
+    width: 12px;
+    height: 10px;
+    float: left;
+    margin-left: 17px;
+    margin-top: 4px;
+    position: relative;
+    left: 34px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.wlqimg_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -949px -174px;
+    width: 11px;
+    height: 12px;
+    float: left;
+    /* margin-left: 55px; */
+    
+    margin-top: 4px;
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+.initiate_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -949px -198px;
+    width: 11px;
+    height: 12px;
+    float: left;
+    margin-left: 19px;
+    margin-top: 4px;
+    position: relative;
+    left: 29px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+/*my team*/
+
+.app-hr {
+    width: 100%;
+    border-bottom: 2px dotted #ccc;
+}
+.year-selection {
+    border-radius: 50%;
+    height: 49px;
+    border: 1px solid #ccc;
+    width: 50px;
+    padding: 14px 8px;
+    color: #fff;
+    background: grey;
+    float: left;
+    margin-left: 130px;
+}
+.year-selection.active {
+    background: #FFAA05 !important
+}
+.year-round {
+    position: absolute;
+    top: -20px;
+}
+.myteam-round .tab-pane {
+    position: relative;
+}
+.bg_gry {
+    background: #ECECEC;
+    float: left;
+    width: 100%;
+    /* position: relative; */
+    /* top: 30px; */
+    
+    margin-top: 50px;
+    padding-bottom: 120px;
+}
+.pdf_dv {
+    float: left;
+    width: 100%;
+    padding: 30px;
+}
+.pdf-img {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -275px -437px;
+    width: 19px;
+    height: 24px;
+    float: left;
+    cursor: pointer;
+    /* right: 5px; */
+    
+    margin-right: 8px;
+    position: relative;
+    bottom: 4px;
+}
+.pdf-img.active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -275px -388px;
+    width: 19px;
+    height: 24px;
+}
+.pdf-img1 {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -346px -444px;
+    width: 17px;
+    height: 16px;
+    float: left;
+    /* margin-left: 55px; */
+    
+    margin-top: 3px;
+    /* position: relative; */
+    
+    cursor: pointer;
+    /* right: 5px; */
+    
+    margin-left: 8px;
+}
+.pdf-img1.active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -346px -395px;
+    width: 17px;
+    height: 16px;
+}
+.feed_anals_txt {
+    float: left;
+    width: 21%;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 12px;
+}
+.wlq_report li {
+    float: left;
+    width: 33%;
+    padding: 15px;
+}
+.pip-rating .head {
+    background: grey;
+    color: white;
+    padding: 10px;
+}
+.pip-rating .obj {
+    border: 1px solid #ccc;
+}
+.hght230 {
+    height: 230px;
+}
+.myteam-round .mce-tinymce {
+    margin-top: 50px;
+}
+.month1 {
+    float: left;
+    margin-right: 15px;
+    font-size: 12px;
+}
+.amcharts-chart-div > a {
+    display: none !important;
+}
+.topperformer-view {} .mt64 {
+    margin-top: 64px;
+}
+.user-profile {
+    margin-top: 10px;
+    border-right: 1px solid #ccc;
+    padding: 63px 7px;
+}
+.legend > span {
+    font-size: 12px;
+    width: 100%;
+    float: left;
+    padding: 4px 2px;
+    color: #444242;
+}
+.grey-clr {
+    color: #615A5A;
+    border-color: #777373;
+}
+.archive_page >.panel-collapse {
+    display: none !important;
+}
+.rev-div {
+    top: 29%;
+    z-index: 1;
+    float: right;
+    right: 29px;
+}
+.right-side .carousel-caption {
+    position: absolute;
+    top: 22%;
+}
+#legenddiv {
+    height: 100px !important;
+    /* force that height */
+    
+    overflow: auto;
+    position: relative;
+}
+
+/*accessibility*/
+
+
+/*accessibility*/
+
+#Home-page .logout-btn {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1089px -393px;
+    width: 17px;
+    height: 17px;
+    float: right;
+    /* margin-left: 20px; */
+    /* margin-top: 2px; */
+    
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 28px;
+    margin-top: 17px;
+    z-index: 0;
+}
+.red-reminder {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1224px -391px;
+    width: 23px;
+    height: 18px;
+    float: left;
+    position: absolute;
+    bottom: 23px;
+    cursor: pointer;
+    border: none;
+    /*accessibility*/
+}
+.edit_list_ornge {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1159px -395px;
+    width: 11px;
+    height: 11px;
+    float: left;
+    cursor: pointer;
+}
+.revert_list_ornge {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1186px -395px;
+    width: 12px;
+    height: 11px;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.list_orange {
+    position: absolute;
+    bottom: 20px;
+    right: 14px;
+    margin-bottom: 8px;
+}
+.grn-edit {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1151px -435px;
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: absolute;
+    bottom: 23px;
+    right: 49px;
+    cursor: pointer;
+    border: none;
+    /*accessibility*/
+}
+.revert_reason {
+    background: #FFEBC6;
+    border: 1px solid #ccc;
+    box-shadow: #ccc;
+    box-shadow: 1px 1px 0px rgba(136, 136, 136, 0.94);
+    font-size: 13px;
+    padding: 15px 14px;
+}
+.description {
+    color: #73726F;
+    font-style: italic;
+    text-align: right;
+    margin-top: 10px;
+}
+.date-time {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #868383;
+}
+.reason_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -919px -76px;
+    width: 13px;
+    height: 13px;
+    float: right;
+    position: relative;
+    right: 18px;
+    top: 3px;
+}
+.datepicker_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -893px -185px;
+    width: 10px;
+    height: 10px;
+    float: left;
+    position: absolute;
+    top: 0;
+    right: 152px;
+    margin-top: 2px;
+}
+.modal-dialog {
+    top: 60px;
+}
+.for-legend {
+    padding: 0px !important;
+    position: relative;
+    top: 50px !important;
+    display: none;
+}
+/*.for-legend button:nth-child(2), .for-legend button:nth-child(3), .for-legend button:nth-child(4), .for-legend button:nth-child(5), 
+.for-legend button:nth-child(6), .for-legend button:nth-child(6)       {pointer-events: none;}*/
+/*.for-legend button {
+    position: relative;
+    z-index: 99999;
+}
+.for-click
+{
+pointer-events: none;
+}
+.for-disable
+{
+color:#ccc;
+border:1px solid #ccc;
+}*/
+
+.performers-tab .nav-tabs >li {
+    width: 50%;
+}
+.performers-tab .nav-tabs >li>a {
+
+    border: none;
+    height:25px;
+}
+.performers-tab .nav-tabs {
+    margin-bottom: 0!important;
+}
+.pb100 {
+    padding-bottom: 100px;
+}
+.delete_pop .modal-dialog {
+    width: 469px !important;
+    margin: 50px auto;
+}
+.filter-div {
+    border: 1px solid #a5a5a5;
+    width: 195px;
+    padding: 4px 9px;
+    float: left;
+}
+.filter-ul {
+    position: absolute;
+    top: 42px;
+    z-index: 1;
+    background: white;
+    border: 1px solid #ccc;
+    width: 196px;
+    padding-bottom: 18px;
+    padding-top: 11px;
+}
+.filter-ul li {
+    list-style-type: none;
+    padding: 3px 8px;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.filter-ul li input {
+    margin-right: 8px;
+    margin-top: 2px;
+}
+.filter_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -979px -77px;
+    width: 11px;
+    height: 11px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+.borderleft {
+    border-left: 1px solid #ccc;
+}
+.mb15 {
+    margin-bottom: 15px;
+}
+.close_icon_img {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -819px -35px;
+    width: 18px;
+    height: 18px;
+    float: left;
+    position: absolute;
+    top: 0;
+    right: 11px;
+}
+.selected-pic {
+    float: left;
+    width: auto;
+    position: relative;
+    color: white;
+    margin-right: 24px;
+}
+.hghtauto {
+    height: auto!important;
+}
+.appraisal_icon_team {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1224px -433px;
+    width: 23px;
+    height: 19px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 4px;
+}
+.wlq_icon_team {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1225px -470px;
+    width: 18px;
+    height: 20px;
+    float: left;
+    margin-right: 12px;
+}
+.pip_icon_team {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1225px -509px;
+    width: 18px;
+    height: 20px;
+    float: left;
+}
+.list_view_team {
+    position: absolute;
+    bottom: 6px;
+    right: 11px;
+}
+.yellow_border {
+    border-bottom: 2px solid #FFB400;
+}
+.logout-btn:hover {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1059px -393px;
+    width: 17px;
+    height: 17px;
+}
+.back-to-grid span {
+    cursor: pointer;
+}
+.round_img {
+    width: 78px;
+    height: 79px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.round_img img,
+.round_small img {
+    width: 100%;
+    height: 100%;
+}
+.round_small {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+.back-div a,
+.back-to-grid a {
+    color: black;
+    text-decoration: none;
+}
+.appraisal-menu li a {
+    color: #A4A2A5;
+    text-decoration: none;
+}
+.left-side {
+    width: 12%;
+}
+.right-side {
+    width: 88%;
+}
+.popup_btns .modal-content {
+    background: black;
+    opacity: 0.85;
+    height: 650px;
+}
+.popup_btns .modal-content {
+    float: left;
+    width: 100%;
+}
+.img_txt_dv {
+    float: left;
+    width: 80%;
+    margin-left: 20%;
+    position: relative;
+    top: 20%;
+}
+.error_msg_img {
+    width: 370px;
+    height: 370px;
+    float: left;
+}
+.popup_btns .modal-footer {
+    float: left;
+}
+.popup_btns .modal-dialog {
+    width: 1000px;
+    margin: 1px auto;
+}
+.txt_only_dv {
+    float: left;
+    width: 50%;
+    margin-top: 75px;
+}
+.titl_oly {
+    float: left;
+    font-family: Arial;
+    font-size: 60pt;
+    color: #fff;
+    font-weight: 800;
+    margin-top: 21px;
+}
+.txt_oly {
+    float: left;
+    font-family: Arial;
+    font-size: 21px;
+    color: #fff;
+    width: 100%;
+    white-space:pre-wrap;
+}
+.popup_btns .modal-body {
+    position: relative;
+    padding: 3px;
+}
+.popup_btns .btn-default {
+    color: #000;
+    background-color: #FFAA05;
+    border-color: #ccc;
+    padding: 5px;
+    width: 90px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.popup_btns.modal.in .modal-dialog {
+    width: 100%;
+    top: 0px;
+}
+.pg_mdl {
+    padding-left: 0px;
+}
+.help_line_btn {
+    background: url('../images/helpline.png') no-repeat;
+    width: 27px;
+    height: 28px;
+    float: left;margin:0 5px;
+    cursor: pointer;
+}
+.space-normal {
+    white-space: normal;
+}
+.popup_btns .modal-backdrop,
+.popup_btns .modal-dialog {
+    height: inherit;
+}
+.popup_btns.modal {
+    overflow-y: hidden;
+    padding-left: 0 !important;
+}
+.popup_btns.modal.in .modal-dialog {
+    width: 100%;
+    top: 0px;
+    height: 99.99%;
+}
+.popup_btns .modal-body {
+    height: 100%;
+}
+/* manager trp css starts here */
+
+.trp-tabs {
+    border: 1px solid #ccc;
+    ;
+}
+.trp-tabs ul {
+    float: left;
+    width: 100%;
+    background: #E8E8E8;
+}
+.inner-tab .trp-tabs ul li {
+    width: 21%;
+}
+.inner-tab .trp-tabs ul li > a {
+    border: none;
+    color: #5A5A5A;
+    padding: 12px;
+    font-size: 12px;
+     outline: 0; 
+}
+.inner-tab .trp-tabs ul>li.active > a,
+.inner-tab .trp-tabs ul li:focus > a,
+.inner-tab .trp-tabs ul li:active > a {
+    border-bottom: none !important;
+    border-top: 3px solid orange !important;
+    color: black !important;
+}
+#trp-manager .table>tbody>tr>td,
+#trp-manager .table>tbody>tr>th,
+#trp-manager .table>tfoot>tr>td,
+#trp-manager .table>tfoot>tr>th,
+.table>thead>tr>td,
+#trp-manager .table>thead>tr>th {
+    border: 1px solid #ccc !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+#trp-manager .table th {
+    background: #FFA800;
+    color: white;
+    font-weight: normal;
+    padding: 9px;
+}
+#trp-manager .table td {
+    padding: 11px 8px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+#trp-manager .table td a {
+    text-decoration: none;
+}
+#trp-manager .table tr:hover td {
+    background: #FFF9ED;
+    cursor: pointer;
+}
+.arrow-left {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -921px -181px;
+    width: 8px;
+    height: 14px;
+    float: left;
+}
+.dummy-img {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -436px -252px;
+    width: 34px;
+    height: 34px;
+    float: none;
+    margin: 0 auto;
+    position: relative;
+    top: -4px;
+}
+.review-tab .nav-tabs>li {
+    width: 33%;
+    text-align: center;
+    list-style-type: none;
+}
+.review-ul li {
+    list-style-type: none;
+    width: 33.3%;
+    float: left;
+    min-height: 75px;
+    margin-top: 10px;
+}
+.review-ul li label {
+    width: 100%;
+    color: #818181;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.review-ul li span {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: #434343;
+    padding: 10px 21px 1px 0px;
+    float: left;
+    width: 100%;
+}
+.review-popup .modal-dialog {
+    width: 1044px !important;
+    margin: 50px auto;
+}
+.review-ul input {
+    border: 1px #E1E1E1 solid !important;
+    border-radius: 0;
+    padding: 7px 7px;
+    text-transform: uppercase;
+    width: 100%;
+}
+.pt0 {
+    padding-top: 0 !important;
+}
+.note-div {
+    background: #FFB400;
+    float: left;
+    color: white;
+    padding: 10px;
+}
+#trp-manager ul li {
+    list-style-type: none;
+}
+.field_ul li {
+    list-style-type: none;
+    float: left;
+    width: 100%;
+}
+.field_ul li label {
+    float: left;
+    width: 100%;
+    padding: 7px 0px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: black;
+}
+.field_ul li span {
+    float: left;
+    width: 100%;
+}
+.field_ul li textarea,
+.talent-ul li textarea {
+    width: 100%;
+    resize: none;
+    height: 60px;
+    padding: 10px;
+}
+.review-popup .modal-footer {
+    background: #F5F5F5;
+    height: auto !important;
+}
+.ppt-btn {
+    background: #464646;
+    color: white;
+    padding: 7px 17px;
+    border: none;
+    margin-top: 5px;
+}
+.review-tab .tab-content {
+    padding: 0px;
+}
+.talent-ul li {
+    width: 25%;
+}
+.talent-ul li.wd50 {
+    width: 50%;
+}
+.talent-ul li label,
+.action-ul li label {
+    width: 100%;
+    color: black;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 12px;
+}
+.talent-ul .sel-arrw,
+.review-ul .sel-arrw {
+    float: left;
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    border-color: #ccc;
+    font-weight: normal;
+}
+.review-ul li span.no-char {
+    text-align: right;
+    text-transform: capitalize;
+    color: #6C6C6C;
+    font-weight: normal;
+}
+.review-popup .user-profile {
+    padding: 0px 32px;
+    border: none;
+    margin-top: 14px;
+}
+.element {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #000;
+}
+#objectives .navbar-default {
+    position: static;
+}
+.margnrgt {
+    margin-right: 8px;
+}
+.obj_cont p {
+    margin: 0px 6px 10px !important;
+    text-indent: 0in !important;
+}
+.obj_cont table {}
+
+ .obj_cont {
+    font-weight: normal;
+    text-align: justify;
+    /*padding: 10px;*/
+    
+    padding-bottom: 10px;
+    color: #6D6D6D;
+    margin-left: 0px;
+    list-style-type: circle;
+    word-break: break-all;
+}
+
+.obj_cont_new {
+    font-weight: normal;
+    text-align: justify;
+    /*padding: 10px;*/
+    
+    padding-bottom: 10px;
+    color: #6D6D6D;
+    margin-left: -15px;
+    list-style-type: circle;
+}
+.objc_ul {
+    border-bottom: 1px solid #ccc;
+}
+.objcbak_ul {
+    background: #F0F0F0;
+}
+.comn_ul {
+    padding: 10px;
+}
+.marginBottom15 {
+    margin-bottom: 15px;
+}
+.ppt_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1116px -234px;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 12px;
+}
+.space-normal {
+    white-space: normal;
+}
+.textarea-cmn {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    height: 220px;
+}
+.scrollarea .scrollbar-container {
+    z-index: 9 !important;
+}
+.helpline_btn {
+    float: left;
+    background: #21a0cf;
+    border: none;
+    margin-left: 6px;
+    margin-right: 20px;
+    margin-top: 8px;
+    padding: 4px;
+    border-radius: 8px;
+}
+.popup_btns .close_btn {
+    margin-top: 8px;
+    padding: 6px;
+    font-size: 16px;
+}
+.mb20 {
+    margin-bottom: 34px;
+}
+.panel-group .panel {
+    margin-bottom: 2px;
+    border-radius: 4px;
+}
+.dummy_l1_img.active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -502px -177px;
+    width: 56px;
+    height: 55px;
+}
+.employee_icon.inactive {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -668px -96px;
+    width: 56px;
+    height: 55px;
+}
+.round_circle.active {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid orange;
+}
+.upper {
+    text-transform: uppercase;
+}
+#Home-page .logout-btn {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1089px -393px;
+    width: 17px;
+    height: 17px;
+    float: right;
+    /* margin-left: 20px; */
+    /* margin-top: 2px; */
+    
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 28px;
+    margin-top: 17px;
+    z-index: 9;
+}
+#Home-page .logout-btn:hover {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1059px -393px;
+    width: 17px;
+    height: 17px;
+}
+.logout-btn:hover {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1059px -393px;
+    width: 17px;
+    height: 17px;
+}
+.logout-btn {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1089px -393px;
+    width: 17px;
+    height: 17px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 9px;
+    cursor: pointer;
+    border: none;
+}
+#online {
+    display: none;
+    float: right;
+    width: 80px;
+    border: 1px dotted #000;
+    background-color: #EFE1E1;
+}
+.offline_icon.active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -891px -120px;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 6px;
+}
+.offline_icon {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -891px -152px;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 6px;
+}
+.bg-black {
+    background: black;
+}
+.status-div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.status-div {
+       position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    padding:0px;
+    /* height: 27px; */
+    /* padding: 8px 14px 4px; */
+    width: 306px;
+    transition: bottom ease 0.5s;
+}
+.status-div.active{
+     bottom: -70px;
+}
+.online-status{
+       width: 161px;
+    background: rgba(0, 0, 0, 0.72);
+    padding: 6px 10px;
+}
+.status_msg {
+    background: rgba(0, 0, 0, 0.72);
+}
+.status-div.activeoff{
+    bottom: -131px;
+}
+.wd148 {
+    width: 148px;
+}
+.borderefull {
+    border: 1px solid #e5e5e5;
+}
+.back_reporte {
+    padding: 50px;
+    width: 100%;
+    float: left;
+    padding-left: 30%;
+    margin-bottom: 11px;
+}
+.peach_clr_back {
+    background: #F1FAF5;
+    float: left;
+    width: 100%;
+}
+/*.heightofscroll
+{
+	height:650px !important;
+}*/
+
+.font12 {
+    font-size: 12px;
+}
+.comp_cls {
+    padding: 12px;
+    margin-left: 15px;
+    font-size: 15px;
+    color: #00A551;
+    font-family: arial;
+}
+.colr_grr {
+    color: #6D6D6D;
+}
+.clr-blue1 {
+    color: #5593FF;
+}
+.search_box1 {
+    float: right;
+    position: relative;
+}
+.nodata_container {
+    background: #f3f3f3;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    font-weight: bold;
+}
+.empcomments {
+    margin-left: 11px;
+    width: 95.7%;
+}
+.round_circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50% !important;
+    border: 1px solid #A9A8A8;
+}
+.designation {
+    float: left;
+    width: 100%;
+    position: relative;
+    height: inherit;
+}
+/*comments*/
+
+.archive_table table th {
+    background: #F0F0F0;
+    color: black;
+    border: 1px solid #e5e5e5;
+    padding: 11px!important;
+    font-size: 12px;
+}
+.img_bckg_clr {
+    background-color: #F0F0F0;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.archive_table table>tbody>tr>td {
+    border: 1px solid #e5e5e5;
+    color: black !important;
+    padding: 11px!important;
+}
+.margnrgt {
+    margin-right: 8px;
+}
+.obj_cont p {
+    margin: 0px 0px 10px !important;
+}
+.obj_cont table {
+    margin-left: 0px;
+    width: 100% !important;
+    word-break: break-all !important; 
+}
+.obj_cont table tbody > tr > td {
+    padding: 8px;
+}
+.obj_cont ul{
+	margin-left:15px;
+   /* margin-left:0px;*/
+}
+.obj_cont ol{
+    margin-left: -25px;
+    margin-top: 10px;
+}
+.round_circle img {
+    width: 100%;
+    height: 100%;
+}
+.font_weight {
+    font-weight: bold;
+}
+.pdng_zer {
+    padding: 0px;
+}
+.wid100 {
+    width: 100%;
+}
+.wd96 {
+    width: 96% !important;
+}
+#barline tspan {
+    font-weight: normal;
+    font-family: arial;
+}
+.topchng {
+    font-weight: bold;
+    font-size: 14px;
+    color: #696969;
+}
+.snd_remind {
+    position: relative;
+    top: 1px;
+}
+#chartreportee_2 tspan {
+    font-weight: normal;
+}
+.max_chr {
+    float: right;
+    margin-right: 5px;
+    color: #6b6b6b;
+    text-align: right;
+    font-size:13px;
+}
+.tot {
+    float: left;
+    width: 100%;
+    margin-left: 73px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.head14 {
+    font-size: 14px;
+    margin-left: 3px;
+}
+.listview_new img {
+    margin-top: 3px;
+}
+button,
+a,
+select {
+     outline: 0 !important; 
+}
+.gbtn-new {
+    border-bottom: 2px solid #ccc !important;
+    font-size: 13px;
+    float: right;
+    border: none;
+    padding: 3px;
+    color: #7A7676;
+    font-weight: bold;
+    margin-right: 0px;
+    cursor: pointer;
+    width: 100%;
+    background: #EDEDED !important;
+}
+.gbtn {
+      border-bottom: 2px solid #FFB400 !important;
+    float: right;
+    border: none;
+    padding: 3px;
+    color: rgb(229, 142, 13);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+    width: 100%;
+    background: #FFF6E4 !important;
+}
+.btn-bg {} .title-heading-cards {
+    color: #000;
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.clickable {
+    cursor: pointer;
+}
+.role {
+    float: left;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.gridview-tab .nav-tabs>li {
+    width: 19%;
+    text-align: center;
+}
+.gridview-tab .nav-tabs {
+    margin-bottom: 15px;
+}
+.gry_flt {
+    float: left;
+}
+.marginBottom5 {
+	margin-bottom:5px;
+}
+.mt7 {
+	margin-top:7px;    margin-bottom: 15px;
+}
+.obj_color {
+	color:#333;
+}
+.padlft20 {
+	padding-left:20px;
+}
+.mr10{
+	margin-right:10px
+} 
+
+.line_center{
+    margin: 10px auto;
+    width: 97%;
+    padding: 4px 0px;
+    color: #FFB400;
+    font-size: 15px;
+    font-weight: bold;
+}
+.view_icon{    
+    background: url('../images/Appraisal_Sprite.png') no-repeat -944px -237px;
+    width: 27px;
+	height: 14px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 13px;
+    margin-top: 2px;
+}
+#linechart_performance2{
+    height: 235px;
+}
+.obj_cont_new ul li{
+    list-style-position: inside;
+}
+.character-left{
+    float: right;
+    margin-bottom: 16px;
+    font-size: 13px;
+}
+.nav-tabs>li>a {
+    border-radius: 0px !important;
+}
+.nav-tabs>li>a{
+    line-height: 0.428571 !important;
+}
+.badges_circle{
+        width: 21px;
+        border-radius: 50%;
+        padding-top: 8px;
+        top: 5px;
+        background: #a5a5a5;
+        color: #fff;
+        font-size: 12px;
+        height: 19px;
+        float: left;
+        margin-top: 0px;
+}
+.nav-tabs li.active>a>span>.badges_circle{
+        background: #FFB400;
+    color: #fff;
+}
+.nav-tabs li.active>a>span>.tab_title{
+    color: #FFB400;font-weight:bold;
+}
+.tab_title{
+    position: relative;
+    top: 8px;
+    float: left;
+    margin-right: 16px;
+    color: #a5a5a5;
+    font-weight: normal;
+}
+.badge_title{   
+     display: block;
+    text-align: center;
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    left: 33%;
+}
+.gridview-tab .nav-tabs>li>a,.list_view_tab .nav-tabs>li>a{
+    height:26px;
+}
+.star-div{
+        position: absolute;
+        bottom: 10px;
+        right: 62px;
+        width: 120px;
+		outline: none;
+		top: -4px;
+}
+
+.star-div div>label.dv-star-rating-star{
+color:white !important;
+
+}
+.obj_cont>table>tbody>tr>td{
+    padding:8px;
+    border: 1px solid #000;
+    position: static !important;
+}
+.qispr_link {
+    position: absolute;
+    top: 42px;
+    right: 65px;
+    color: #636161 !important;
+    cursor: pointer;
+    text-decoration: none!important;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.faq_link {
+    position: absolute;
+    top: 42px;
+    right: 32px;
+    color: #636161 !important;
+    cursor: pointer;
+    text-decoration: none!important;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.go_link {
+    position: absolute;
+    top: 42px;
+    color: #636161 !important;
+    cursor: pointer;
+    text-decoration: none!important;
+    padding-bottom: 5px;
+    font-size: 12px;
+    right: 430px;
+}
+.go_line_link {
+    position: absolute;
+    top: 47px;
+    border-bottom: 1px solid #8A8989;
+    width: 82px;
+    right: 430px;
+}
+.go_right {
+    right: 27px !important;
+}
+.hr_line_link {
+    position: absolute;
+    top: 47px;
+    border-bottom: 1px solid #8A8989;
+        right: 63px;
+    width: 357px;
+}
+.faq_line_link {
+        position: absolute;
+    top: 47px;
+    border-bottom: 1px solid #8A8989;
+    right: 29px;
+    width: 27px;
+}
+.obj_list .nav-tabs {
+    margin-bottom: 45px !important;
+    /* border-bottom: 2px solid #ffb500; */
+}
+.profile_div{
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+    border: 1px solid rgba(255, 255, 255, 0.92);
+    border-radius: 13px;
+    padding: 6px 12px;
+    margin: 16px 14px;
+    cursor:pointer;
+        background: transparent;
+}
+.profile_div:hover,.profile_div.active{
+    border: 1px solid #FFAA05;
+    color: #FFAA05;
+}
+.menu-accordion .panel-body{
+        padding-left: 46px;
+    padding-right: 44px;
+    padding-top: 4px;
+}
+.pointing_icon{
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1030px -445px;
+    width: 12px;
+    height: 7px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 4px;
+}
+
+/*.pointing_icon{
+    background: url('../images/top_icon.png') no-repeat -2px -4px;
+    width: 12px;
+    height: 7px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 4px;
+}*/
+.font11 {
+    font-size:11px;
+}
+.scroll_top_icon{
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1086px -437px;
+    width: 25px;
+    height: 24px;
+    float: right;
+    position: absolute;
+    bottom: 90px;
+    right: 13px;
+    cursor: pointer;
+}
+.btn_clk{
+     background: url('../images/My-Appraisal.png') no-repeat !important;  
+   
+  width: 157px;
+    height: 44px;
+    float: left;
+    /* padding: 9px !important; */
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  
+    margin-left: 0px;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+.clkd_btn{
+    
+  background: url('../images/Manager--view.png') no-repeat !important;
+    width: 157px;
+    height: 44px;
+    float: left;
+    /* padding: 9px !important; */
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+    margin-left: 0px;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+.dash_pop{
+    float:left;
+    width:295px;
+    background: #343434;
+    opacity:0.3;
+    color:#fff;
+    padding:10px;
+    left: 1040px !important;
+    z-index:1;
+}
+.dash_pop.close-white{
+    z-index:1;
+}
+.tool_dash{
+    float:right;
+    margin-right:7%;
+}
+
+.switch_role{
+    color: rgba(255, 255, 255, 0.53);
+    float: left;
+    margin-top: 9px;
+}
+.dash_pop.popover.bottom>.arrow:after {
+    top: 1px;
+    margin-left: -10px;
+    content: " ";
+    border-top-width: 0;
+    border-bottom-color: #343434;
+}
+.performancescreen .reminderall_btn{
+    top:0;
+}
+#toplinechart_performance2 tspan{
+    font-size: 8px !important;
+    cursor:pointer;
+}
+
+#OneyearWLQChartForKCA tspan{
+   
+    cursor:pointer;
+}
+#bar-chart-grid11 tspan{
+   
+    cursor:pointer;
+}
+#linechart_performance2 tspan{
+   
+    cursor:pointer;
+}
+.non-edit{
+    
+    border: 1px solid #E1E1E1  !important;
+    cursor:default ;
+    background: white;  
+}
+.help_modal{
+    width: 100% !important;
+    top: 0;
+    overflow: hidden;
+    margin: 0 !important;
+    bottom: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85) ;
+}
+.help_modal .modal-content{
+    background: rgba(0, 0, 0, 0.61);
+
+}
+.performer_img{
+    background: url('../images/top-and-bottom-performers-of-your-team.png') no-repeat -39px -27px;
+    width: 541px;
+    height: 198px;
+    float:left;
+    margin-right: 34px;
+}
+
+
+.pending_review_img{
+    background: url('../images/pending-review.png') no-repeat -46px -27px;
+    width: 488px;
+    height: 87px;
+    float:left;
+    margin-left: 11%;
+}
+.send_reminder_img{
+    background: url('../images/send-reminder.png') no-repeat -23px -35px;
+    width: 300px;
+    height: 201px;
+    float: none;
+    margin: 0 auto;
+}
+
+.help_modal .close-white{   
+    top: 11px;
+    right: 24px;
+    z-index: 1;
+}
+
+ .archives_img{
+    background: url('../images/Complete-profile-of-emp.png') no-repeat -20px -44px;
+    width: 484px;
+    height: 163px;
+    float:left;
+}
+.rating_img{
+    background: url('../images/star-rating.png') no-repeat -58px -40px;
+    width: 587px;
+    height: 129px;
+    float:right;
+}
+.comments_img{
+    background: url('../images/L1-Manager-Comment.png') no-repeat -27px -4px;
+    width: 1132px;
+    height: 288px;
+    float:none;
+    margin:0 auto;
+}
+#bar-chart-grid1 .amcharts-legend-div{
+    display:none;
+}
+#linechart_performance2 text{
+    color:#000;
+}
+.marginlft{
+    margin-left:5px;
+}
+.past_text {
+    color: #696969;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.bgWhiteLable.activeclass{
+   background: #FF9100!important;
+    color: white;
+    border: 1px solid #FF9100 !important;
+    border-radius: 4px;
+}
+.header-tab {
+    width: auto;
+    border: 1px solid #434343;
+    background: #434343;
+    float: left;
+    border-radius: 3px;
+    padding: 3px 4px;
+    padding-bottom: 4px;
+}
+.radio-normal-notclick{
+    background: url('../images/Appraisal_Sprite.png') no-repeat -978px -153px;
+    width: 16px;
+    height: 14px;
+    float: left;
+    margin-top: 2px;
+    margin-right: 20px;
+	border: 0px;
+}
+.radio-normal-notclick.active {
+    background: url('../images/Appraisal_Sprite.png') no-repeat -978px -121px;
+    width: 16px;
+    height: 14px;
+}
+.help_screen
+{
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+}
+.emphelpscreen{
+    background: url('../images/emphelpscreen.jpg') no-repeat 0 0;
+    width: 1024px;
+    height: 705px;
+    margin: 0 auto;
+}
+.manager_help_img{
+    background: url('../images/managerhelpscreen.jpg') no-repeat 0 0;
+    width: 1336px;
+    height: 719px;
+    margin: 0 auto;
+}
+.info_div{
+    float: left;
+    background: #FFAA05 !important;
+    color: white;
+    padding: 3px 14px 3px 32px;
+    border-radius: 6px;
+    margin-top: 10px;
+    position: relative;
+}
+.bg-lightorange{
+   background: #fff6e5;
+    padding: 12px;
+}
+.information_icon{
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1182px -507px;
+    width: 25px;
+    height: 25px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.emp-review .nav-tabs>li:nth-child(3){
+    width:auto;
+}
+.dicussion-ul li{
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    padding: 16px 12px;
+    list-style-position: inside;
+    color: black;
+}
+.dicussion-ul li:nth-child(odd){
+                background: #F6F6F6;
+}
+.yesnobtn{
+        /* background: #DFE3EC; */
+    /* float: right; */
+    border-radius: 7px;
+    padding: 14px 10px;
+    font-size: 11px;
+    color: #0c0e13;
+    /* margin-top: -10px; */
+    margin-top: -2px;
+    /* text-transform: uppercase; */
+}
+                
+.yesnobtn button.active               {    
+    background: #E59500;
+    color: white;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 2px 7px;
+    border: none;
+    text-transform: uppercase;
+}
+.yesnobtn button{
+    border: none;
+    text-transform: uppercase;
+}
+.bg-orange{
+    background:orange;
+}
+.yesnoradio span{
+    margin-right: 6px;
+    font-size: 13px;
+}
+.listobjoff  .hr-line {
+    width: 99%;
+}
+.listobjoff{
+    padding-left:30px;
+}
+.obj_helpscreen{
+    background: url('../images/objectives_helpscreen.jpg') no-repeat 0 0;
+    width: 1029px;
+    height: 612px;
+    margin: 0 auto;
+}
+.emp-review .tab-content{
+    padding:0px;
+}
+.emp-review .nav-tabs{
+    margin-left:24px;
+}
+.padd_left24{
+padding:0px 24px;
+}
+.text-editor table>tbody>tr>td{
+    padding:10px;
+	border: 1px solid #000;
+}
+.addtext{
+	float: left;
+	cursor: pointer;
+    padding-top: 7px;
+}
+.chat_icon{
+	background: url('../images/Chat.png') no-repeat -5px -5px;
+    width: 23px;
+    height: 20px;
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+	cursor: pointer;
+}
+
+/*additional start*/
+/*rating style*/
+.usr-pic{
+    background: url('../images/blank-small.png') no-repeat 0 0;
+    width: 37px;
+    height: 37px;
+    float: left;
+}
+.usr-name{
+	margin-top: 8px;
+}
+.obj-style{
+        color: rgba(121, 121, 121, 0.79)!important;
+    font-weight: 600;
+   
+    margin-bottom: 10px;
+}
+.bluefont{
+color:#5DB3D9;
+}
+
+.widthcls.modal.in .modal-dialog {
+   width: 500px !important;
+    /* margin-top: 8px; */
+   
+
+}
+ .widthcls.modal.in .modal-dialog,.commentdialog.modal.in .modal-dialog{
+top: 69px;
+}
+
+.widthcls .modal-body,.commentdialog .modal-body{
+     float: left;
+    width: 100%;
+    background: white;
+    padding: 0px;
+    height: 430px;
+}
+.widthcls .scrollarea,.commentdialog .scrollarea{
+
+    height: 353px;
+}
+.cmmn-div .header-part:nth-child(odd){
+background:#F6F6F6;
+border:1px solid #ccc;
+}
+.cmmn-div{
+padding:0px;
+}
+.header-part{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*additional end*/
+.text-editor >*{
+    font-size: 13px!important;
+}
+/****************** 20/06/2016 *******************/
+.additonal_supervisor_comments_header{
+    background: #ececec;
+    color:#000;
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    float: left;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.additonal_supervisor_img{
+    padding-left: 10px;
+}
+
+.additional_supervisor_name{
+    color:#505457;
+    font-size:14px;
+    font-weight: bold;
+	left: 4px;
+}
+
+.additional_supervisor_designation{
+    color: #4f5356;
+    font-size: 12px;
+}
+
+.more_link{
+    text-align: right;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #525358;
+    cursor: pointer;
+}
+
+.more_arrow{
+    background: url('../images/Appraisal_Sprite.png') no-repeat -921px -181px;
+    width: 8px;
+    height: 14px;
+    float: right;
+    margin: 3px 10px;
+    cursor: pointer;
+}
+
+.comments_container{
+    width:  92%;
+    margin:0 auto;
+}
+.orange_line{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px #ffb401 solid;
+    height: 40px;
+    line-height: 40px;
+}
+
+.comments_para{
+    font-size:  12px;
+    color: #2d3752;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.align_center{
+    text-align: center;
+}
+
+.additional_supervisor_name_center{
+    color:#505457;
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.additional_supervisor_designation_center{
+    color: #4f5356;
+    font-size: 12px;
+    text-align: center;
+}
+
+.grey_border_bottom{
+    padding-bottom: 10px;
+    border-bottom: 1px #959595 solid;
+}
+.supervisor_rating .dv-star-rating{
+float:left;
+}
+.closure_icon{	
+	background: url('../images/Appraisal_Sprite.png') no-repeat -885px -491px;
+	width: 56px;
+	height: 55px;
+    margin: 0 auto;
+}
+.closure_icon.active{
+	
+	background: url('../images/Appraisal_Sprite.png') no-repeat -966px -491px;
+	width: 56px;
+	height: 55px;
+}
+.task_text{
+list-style-type: circle;
+    float: left;
+    padding-left: 27px;
+}
+.task_text li{
+	list-style-type: circle !important;
+	
+    padding-left: 0px !important;
+}
+.revert_emp {
+background: url('../images/Appraisal_Sprite.png') no-repeat -1110px -515px;
+	width: 11px;
+	height: 10px;
+    float: left;
+    position: absolute;
+    top: 4px;
+    right: 60px;
+}
+.revert_emp_main{
+	background:#FFB400;
+	height: 18px;
+	width: 73px;
+	float:right;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+.revert_emp_txt{
+	float: left;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+	color:#fff;
+	font-size:10px;
+}
+
+.Nomrgn{margin:10px 0 0 0;}
+.addIconadditnal{
+	background: url('../images/Appraisal_Sprite.png') no-repeat -792px -505px;
+	width: 32px;
+	float:left;
+	margin: 14px 5px 10px 5px;
+	cursor: pointer;
+	height: 32px;
+	border:none;
+	}
+.deltIconadditnal{
+	background: url('../images/Appraisal_Sprite.png') no-repeat -832px -505px;
+	width: 32px;
+	float:left;
+	margin: 14px 0;
+	cursor: pointer;
+	height: 32px;
+	border:none;
+	}
+	.brdrBtm{    border-bottom: 2px solid #ffa800;
+    padding: 10px 0;}
+	.mrgTop{margin-top:20px;}
+	.pdngLeft{    padding-left: 19px;}
+.mngrCircle{    margin: 0 27%;}
+.rvertOption{float: left;
+    width: 100%;display:none;    font-size: 12px;
+    background: #fff;    box-shadow: 0px 5px 9px -1px #ccc;
+    list-style: none;}
+	.activeCheck .rvertOption{display:block}
+.rvertOption li{    
+	float: left;
+    width: 96%;
+    color: #000;
+    text-align: left;
+    padding: 5px;
+	text-transform: capitalize;
+}
+	.rvertOption li:first-child{ border-bottom: 1px solid #ccc;}
+	.rvrttext::before {
+	    background: url('../images/Appraisal_Sprite.png') no-repeat -1208px -80px;
+    width: 12px;
+    content: '';
+    position: relative;
+    height: 11px;
+    float: left;
+    margin: 2px 5px;
+    left: 10px;
+    top: 3px;
+}
+.rvrttext::after {
+	       background: url('../images/arrow-point-to-down.png') no-repeat;
+    width: 9px;
+    content: '';
+    position: relative;
+    height: 5px;
+    float: right;
+    margin: 2px 5px;
+    left: -5px;top: 5px;
+}
+
+.addDlt_main{    float: left;
+    width: 210px;}    
+.rvrtBtn{padding: 0;
+    width: 150px;}
+.rvrttext{    
+    padding: 9px;
+    float: left;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+.additional_mgr_con.clickable{
+border: 1px #D7D7D7 solid;
+    height: 40px;
+    width: 125px;
+    border-radius: 22px;
+    float: left;
+    cursor: pointer;
+    background: none;
+    overflow: hidden;
+}	
+.checkbox_l1m{
+	margin-top: 2px;
+    float: left;
+}
+.ml9{
+margin-left: 9px;
+}	
+.dontflipcontent{
+    border: 1px #d8d8d8 solid;
+    padding: 34px;
+    width: 207px;
+    float: left;
+    height: 220px;
+    margin: 5px;
+}.qplc_manager_check{
+	float: left;
+    margin-top: 30px;
+
+}
+.round_img_new {
+    width: 78px;
+    height: 79px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.round_img_new img{
+width:100%;
+height:100%;
+}
+
+.li_designation_title{
+	color:#7A7676;
+	font-size:12px;
+	font-weight:bold;
+}
+.li_designation_list{
+    margin-left:6px;
+        cursor: pointer;
+}
+
+.additionalmgr_tab{
+    display: block;
+    text-align: center;
+    float: left;
+   
+    position: absolute;
+    top: 5px;
+    left: 27%;
+}
+.li-big{
+	    width: 18% !important;
+    text-align: center;
+}
+.emp_list_title{
+    border-top: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.brdrBtm_orange{
+    border-bottom: 2px solid #ffa800;
+    padding: 5px 0px 5px 0px;
+}
+	
+.brdrBtm_orange_new{
+    border-bottom: 2px solid #ffa800;
+    padding: 5px 0px 20px 0px;
+}
+.hint_graph{
+text-align: right;
+    font-size: 11px;
+    margin-right: 19px;
+    margin-top: 10px;
+}
+.rvrtBtn{
+padding: 0;
+width: 150px;
+outline: none;
+}
+.fiveptrating{
+	margin-top: 2px;
+    padding-right: 11px;
+    float: left;
+    font-size: 12px;
+}
+.fw700{
+font-weight: 700;
+}
+.mb17{
+margin-bottom: 17px;
+}
+.modal-backdrop{
+	opacity:0.9 !important;
+}
+.close_help_modal_btn{
+	    float: right;
+    margin-top: 5px;
+    background: #ffb401;
+}
+.go_right_new {
+    right: 65px !important;
+}
+.template_dropdown{
+	    
+    
+}
+
+
+
+	
+.btn-group.open .dropdown-toggle{
+-webkit-box-shadow:none;
+	}
+.dropdown-menu>li>a{
+	font-size:12px;
+	color:#333;
+}
+.asdfasd{
+	margin-left: 0;
+    margin-right: 22px;
+    left: 954px;
+}
+.aaaa{
+    margin-left: 0;
+}
+.admin_icon{
+    background: url('../images/Appraisal_Sprite.png') no-repeat -295px -502px;
+    width: 47px;
+    height: 47px;
+    margin: 0 auto;
+    border: none;
+}
+.admin_icon:hover{
+   background: url('../images/Appraisal_Sprite.png') no-repeat -361px -502px;
+    width: 47px;
+    height: 47px;
+    margin: 0 auto;
+    border: none;
+}
+.common_link{
+    float: right;
+    margin-top: -33px;
+}
+.common_link_new{
+    float: right;
+    /* margin-top: -30px; */
+    margin-right: 16px;
+    margin-bottom: 10px;
+}
+
+.each_link{
+    cursor: pointer;
+    font-size: 12px;
+    margin: 14px;
+    color: #676161;
+    padding-bottom: 1px;
+}
+
+.dropdown-toggle{
+    font-size: 12px !important;
+    color: #706161 !important;
+    border-radius: 0px !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: -6px !important;
+    background: none !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 15px;
+}
+.each_link a{
+    color: #706161 !important;
+}
+.dropdown-menu li{
+    font-size:12px;
+}
+a:focus, a:hover {
+    color: none !important;
+    text-decoration: none !important;
+}
+.orange1px{
+    border-bottom: 1px solid #ffa800;
+    margin-left: 4px;
+    margin-top: 24px;
+}
+.nopaddingTabs .tab-content{
+    padding:0px !important;
+}
+.empcomments_gao{
+    margin-left: 45px;
+    width: 95.7%;
+}
+.performance_link .link{
+    width: 80%;
+    float: left;
+    margin-top: 4px;
+    padding: 4px 2px;
+}
+.performance_link{
+    background: #fff6e5;
+    border: 1px solid #f0a901;
+    cursor: pointer;
+    margin-right: 39px;
+}
+.btn-wd140{
+    width: 112px;
+    font-size: 12px;
+    padding: 11px;
+}
+.qplctaballign{
+    margin-left: 25px;
+    width: 98%;
+} 
+.empParam_graph{
+	border: 1px solid #ccc;
+    height: 350px;
+	padding: 10px;
+}
+.table-responsive{
+    overflow-x:hidden;
+}
+.ml8{
+    margin-left: 8px;
+}
+.confirm_text{
+    margin-left: 40px;
+    margin-top: -25px;
+    color: #ffb400;
+    float: left;
+}
+.fleft {
+    float: left;
+}
+.over_all_rating .dropdown{
+    margin-top: 14px !important;
+    margin-left: 7px !important;
+} 
+.conf_app{
+    float: right;
+    background: #FFB400;
+    position: absolute;
+    transform-origin: right;
+    padding-right: 136px;
+    padding-left: 55px;
+    padding-top: 44px;
+    margin-left: 1026px;
+    margin-top: 45px;
+    z-index: 0;
+    width: 8%;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(40deg);
+}
+.overflw_hdn{
+    overflow: hidden;
+}
+.confirm_tag_text{
+    width: 82px;
+    text-align: center;
+}
+.overflowhidden{
+    overflow: hidden;
+}
+.conf_app_reportee{
+    float: right;
+    background: #FFB400;
+    position: absolute;
+    transform-origin: right;
+    padding-right: 136px;
+    padding-left: 55px;
+    padding-top: 44px;
+    margin-left: 1040px;
+    margin-top: 45px;
+    z-index: 0;
+    width: 8%;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(40deg);
+}
+.obj_rating_main{
+    border: 1px solid #c5c5c5;
+    padding-bottom: 56px;
+    padding-top: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #fff;
+}
+.obj_rating_common{
+    float: left;
+}
+.obj_rating_text{
+    margin-left: 21px;
+    width: 89%;
+    text-align: left;
+    padding: 8px 14px;
+}
+.obj_rating_text_kca{
+    margin-left: 21px;
+    width: 88%;
+    text-align: left;
+    padding: 8px 14px;
+}
+.m-top22{
+    margin-top: 22px
+}
+.m-top12{
+    margin-top: 12px
+}
+.kca_title{background:#ccc;height:35px;line-height: 35px;color:#fff;margin-top: 10px;padding-left:10px;}
+.showSelfRating .dv-star-rating{
+    margin-right: 325px;
+    margin-top: -14px;
+}
+.showSelfRating{
+    padding-left: 0px;
+    margin-left: -6px;
+}
+.kca_panel_content{
+    padding: 11px 11px;
+}
+.top10{
+    top: -10px;
+}
+.top10 .dv-star-rating{
+    top: 8px;
+    float: right;
+    color: #c5c5c5;
+    font-size: 20px;
+    margin-top: -12px;
+    position: relative;
+    margin-right: 324px;
+}
+.lateral_gridview_enable{
+                background: url('../images/Appraisal_Sprite.png') no-repeat -1208px -80px;
+    width: 12px;
+    height: 11px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 4px;
+    margin-right: 13px;
+                margin-left: 22px;
+}
+.revert_icon_text_lateral{
+    margin-left: -31px
+}
+.confirmatory_left_menu{
+	width: 108px;
+    border-radius: 19px;
+    z-index: 3;
+    background: none;
+    height: 37px;
+    color: rgba(255, 255, 255, 0.41);
+    font-size: 13px;
+    padding-top: 2px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: -16px;
+    font-weight: 600;
+    border: 1px rgba(255, 255, 255, 0.41) solid;
+    cursor: pointer;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.confirmatory_left_menu.active{
+	background: #FFB400;
+    color: #fff;
+}
+.menu-hori-line-confirmatory{
+	width: 104px;
+    height: 1px;
+    border-bottom: 1px #fff solid;
+    float: left;
+    margin-left: 9px;
+    margin-top: 7px;
+    position: absolute;
+}
+.cannot_rate_icon{
+	background: url('../images/Appraisal_Sprite.png') no-repeat -852px -36px;
+	width: 18px;
+	height: 19px;
+	float: right;
+    margin-top: 13px;
+    margin-left: 8px;
+}
+.cannot_rate_icon.active{
+	background: url('../images/Appraisal_Sprite.png') no-repeat -645px -34px;
+	width: 19px;
+	height: 19px;
+	float: right;
+    margin-top: 13px;
+    margin-left: 8px;
+}
+.discussion_text{
+	margin-left: 17px;
+	margin-top: 2px;
+	font-weight: bold;
+	font-size: 13px;
+}
+.help_popup{
+	background: url('../images/Appraisal_Sprite.png') no-repeat -993px -442px;
+    width: 17px;
+    height: 17px;
+    float: right;
+    position: absolute;
+    z-index: 1;
+    right: 57px;
+    top: 18px;
+    border: none;
+}
+.cant_rate_text{
+	width: 112px;
+    margin-left: 30px;
+    margin-top: 3px;
+    font-weight: 600;
+	color: #b3b3b3;
+}
+.cant_rate_text.active{
+	color: #333333;
+}
+#checkbox_cantRate{
+	margin-left: 31px;
+}
+.cannot_rate_icon_new{
+	float: right;
+    width: 138px;
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.cant_rate_heading{
+	float: right;
+	margin-right: 38px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 11px;
+	margin-top: 1px;
+}
+.header_tab_grid_view{
+	/* border: 1px solid #c6c6c6; */
+	background: #ffffff;
+	float: left;
+	border-radius: 3px;
+	margin-left: 17px;
+}
+.addlm_toggle{
+    color: #101010;
+    border: none;
+    border-radius: 1px;
+    font-weight: 600;
+    background: #fff;
+    font-size: 11px;
+	outline:none !important;
+}
+.addlm_toggle.active{
+	background: #FF9100!important;
+    color: white;
+    border: 1px solid #FF9100 !important;
+    border-radius: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+	outline:none !important;
+}
+.l1m_toggle{
+	color: #000;
+	padding: 6px 24px !important;
+	cursor: pointer;
+	border: none;
+	font-size: 11px;
+	font-weight: 600;
+	background: #fff;
+	border: 1px solid #ccc;
+	outline:none !important;
+	float: left;
+}
+.l1m_toggle.active{
+	background: #ffb400 !important;
+	color: #fff !important;
+	outline:none !important;
+	/* border-radius: 3px; */
+	border: 1px solid #ffb400;
+}
+.orange1px_new{
+	border-bottom: 0.5px solid #ffa800;
+	margin-left: 4px;
+	margin-top: 9px;
+	outline:none !important;
+}
+.chk_box_addlm{
+	margin-top: 31px !important;
+	float:left;
+}
+.popup_text_addlm{
+	margin-top: 9px;
+    width: 271px;
+    margin-left: 111px;
+    font-size: 14px;
+	font-weight: bold;
+}
+.text_addlm{
+	padding: 8px 0px;
+	font-size: 14px;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #000;
+}
+.image_addlm{
+	padding-left: 0px;
+    padding-right: 0px;
+    width: 95px;
+}
+.popup_text_addlm_desig{
+	margin-top: 9px;
+    font-size: 14px;
+    font-size: 13px;
+}
+.round_img_addlm{
+	width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.mtop18{
+	margin-top: 18px;
+}
+.mtop34{
+	margin-top: 34px;
+}
+.mLeftN9{margin-left: -9px}
+.details_addlm{
+	padding: 15px 9px;
+}
+.text_area_override{
+    font-size: 12px;
+    height: 138px;
+}
+.pad7px{
+	padding: 7px;
+}
+.cant_rate{
+	background: url('../images/Appraisal_Sprite.png') no-repeat -912px -443px;
+	width: 21px;
+	height: 14px;
+	float: left;
+	margin-top: 3px;
+	margin-left: 4px;
+}
+.cant_rate.active{
+	background: url('../images/Appraisal_Sprite.png') no-repeat -879px -443px;
+	width: 21px;
+	height: 14px;
+	float: left;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+.cant_rate.head{
+	background: url('../images/Appraisal_Sprite.png') no-repeat -944px -443px;
+	width: 21px;
+	height: 14px;
+	float:right;
+	padding: 0px 14px;
+	margin-top: 0px;
+}
+.rate_nw .dv-star-rating{
+	top: 4px;
+    float: right;
+    color: #c5c5c5;
+    font-size: 20px;
+	padding-right: 16px !important;
+}
+.star_head{
+	width: 168px;
+    float: right;
+    padding: 1px;
+    margin-right: 9px;
+}
+.center_padd{
+	padding: 0px 146px;
+}
+.supervisor_rating .star_head{
+	margin-right: 78px !important;
+}
+.orange1px_list_view{
+	border-bottom: 1px solid #ffa800;
+    margin-left: 4px;
+	margin-top: 38px;
+}
+.mleft0{
+	margin-left: 0px !important;
+}
+.orange1px_list_view_addlm{
+	border-bottom: 1px solid #ffa800;
+    margin-left: 4px;
+    margin-top: 11px;
+}
+/*sandhya*/
+.border{
+    border: 1px solid #ccc;
+}
+.direct-table{
+        padding: 37px;
+}
+.direct-table table thead th{
+    padding: 8px;
+}
+.direct-table table tr td{
+    padding: 10px;
+}
+.direct-table table tr{
+    border-bottom: 1px solid #ccc;
+}
+.team-table table th,td{
+
+padding: 10px;
+}
+.new_clr{
+    background-color: #000 !important;
+    color:#fff !important;
+}
+.mrgnbttm10{
+margin-bottom: 10px;
+}
+.mrgntop10{
+    margin-top: 10px;
+}
+.mrgn0{
+    margin: 0px !important;
+}
+/*sandhya*/
+#container1 {
+    width       : 100%;
+    height      : 350px;
+    font-size   : 11px;
+}
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #ff00ff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px arial;
+  color: #ff00ff !important;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+.toggle-button{
+    background: #FF9100;
+    border: 1px solid #FF9100;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+     width: 100px;
+}
+
+.modal-body-graph {
+    height: 550px;
+}
+.submission-status{
+    width: 33%;
+    float: left;
+    margin-right: 5px;
+    height: 350px;
+}
+.submission-status1{
+    width: 33%;
+    float: left;
+   height: 350px;
+}
+.team-table{
+    padding: 14px;
+}
+.padding28{
+    padding: 28px !important;
+}
+.display{
+    display: none;
+}
+.barline-chart-team{
+    height: 228px;
+    margin-top: 20px;
+}
+.tick-img{
+    background: url('../images/s.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    float:left;
+    border: none;
+        position: relative;
+    left: 20px
+}
+.wrong-img{
+    background: url('../images/n.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    float:left;
+    border: none;
+        position: relative;
+    left: 20px
+}
+.highcharts-button{
+    display: none;
+}
+.head-status{
+        color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+        padding-top: 4px;
+}
+.scrollarea .scrollbar-container.vertical .scrollbar{
+        height: 75px !important;
+}
+.toggle-button-team{
+       background: #FF9100;
+    border: 1px solid #FF9100;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100px;
+}
+#teamwise-graph{
+  width: 100%;
+    height: 500px;
+    font-size: 11px;
+}
+.modal_head{
+  float:left;
+  width:90%;
+  font-weight:bold;
+  margin-top:6px;
+  text-transform: uppercase;
+}
+.band_class1{
+border: 1px solid #ccc;
+border-left: 1px solid #ccc;
+
+}
+.completion_Table{
+border:none!important;
+}
+
+.band_class{
+background-color: #FAE4CC;
+border:none;
+width: 65px;
+}
+
+
+.band_class_header  th{
+background-color: #ffffff;
+text-transform: uppercase;
+border-left: none !important;
+border-right: none !important;
+border-top: none !important;
+border-bottom: none!important;
+}
+
+
+.toggle-button-graph{
+   background: #FF9100;
+    border: 1px solid #FF9100;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 111px;
+    height: 28px;
+    padding-left: 6px;
+    padding-right: 0px;
+}
+.no_pad{
+	padding: 0;
+}
+.no_pad1{
+	padding-left:0;
+	padding-right:0;
+}
+
+.teamReview_GraphImage {
+                background: url('../images/thumbnail_icon.png') no-repeat -33px -4px;
+                width: 18px;
+                height: 15px;
+                float:left;
+    margin-top: 5px
+}
+
+
+.submitted_Success_Image {
+                background: url('../images/thumbnail_icon.png') no-repeat -4px -4px;
+                width: 16px;
+                height: 15px;
+                float:left;
+    position:relative;
+    left:26px;
+}
+
+.submitted_Pending_Image {
+                background: url('../images/thumbnail_icon.png') no-repeat -68px -5px;
+                width: 10px;
+                float: left;
+                height: 13px;
+                margin-left: 36px;
+}
+
+.graph_View{
+  font-size: xx-small;
+      float: left;
+      width: 100%;
+      margin-top: 8px;
+      text-align: center;
+}
+.graph_View_head{
+  font-size: xx-small;
+  margin-left: 8px;
+}
+.graph_View1{
+  font-size: xx-small;
+      float: left;
+      width: 100%;
+      margin-top: 5px;
+      text-align: center;
+}
+.one_per{
+  position:relative !important;
+  left:22px;
+}
+.tw_per{
+  position:relative !important;
+  left:8px;
+}
+.mdl_head{
+  float: right;
+    margin-top: 5px;
+    margin-right: 18%;
+    margin-bottom: 5px;
+
+}
+.thre_per{
+  position:relative !important;
+  left:14px;
+}
+.header_percentage{
+font-size:xx-small;
+color: #8F8F8F;
+border-bottom: none!important;
+padding: 1px!important;
+}
+
+.header_percentage3{
+font-size:xx-small;
+color: #8F8F8F;
+border-bottom: none;
+padding: 3px;
+}
+
+.header_percentage2{
+color: #8F8F8F;
+padding: 11px;
+width: 5%;
+}
+
+
+.empty_td{
+border:none!important;
+padding: 3px;
+}
+.submission_Status{
+width: 16px;
+height: 12px;
+float: left;
+margin-left: 15px;
+}
+.percnt{
+  position:relative;
+  bottom:2px;
+  left:12px;
+}
+.confirm_icon{
+	background: url(../images/Appraisal_Sprite.png) no-repeat -892px -212px;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-left: 21px;
+    position: relative;
+    left: 34px;
+	margin-top: 5px;
+}
+.enable_review_icon{
+	background: url(../images/Appraisal_Sprite.png) no-repeat -919px -212px;
+	width: 10px;
+	height: 10px;
+    float: left;
+    margin-top: 4px;
+    margin-right: 13px;
+    margin-left: 22px;
+}
+.frigth53{
+	margin-right: 53px !important;
+}
+.mtop19{
+	margin-top: 19px;
+}
+.modal-header .close{
+    overflow: hidden !important;
+}
+.confirm_icon_list{
+	background: url(../images/Appraisal_Sprite.png)no-repeat -852px -394px;
+    width: 16px;
+    height: 16px;
+    float: left;
+    left: 7px;
+    top: 2px;
+    position: relative;
+}
+.list_enable_review{
+	border: 1px solid orange;
+    padding: 5px;
+}
+.mrightN11{
+	margin-right: -11px;
+}
+.three-btns {
+    float: right;
+    padding: 10px 5px;
+}
+.main-three-btns {
+    float: right;
+    position: relative;
+     width: 100%;
+    display: block;
+}
+
+.closure_addlm_img{
+	margin-top: 16px;
+    padding: 0px 35px;
+}
+.dv-star-rating-star button{
+	border: none;
+	background: transparent;
+	padding: 0px;
+}
+.ratingAllign{
+	margin-left: 10px;
+    left: 11px;
+    top: 0px;
+}
+.mainTabs > .mt10 > ul.nav.nav-tabs {
+    margin: 0 2%;
+    border: 0;
+    /* background:url(../images/pixel_gradient.png) no-repeat ,-webkit-linear-gradient(#ffb400 , #fdf2c9,#fdf2c9); */ /* For Safari 5.1 to 6.0 */
+    background: url(../images/pixel_gradient.png) no-repeat ,-o-linear-gradient(#ffb400 , #fdf2c9,#fdf2c9); /* For Opera 11.1 to 12.0 */
+    background: url(../images/pixel_gradient.png) no-repeat ,-moz-linear-gradient(#ffb400 , #fdf2c9,#fdf2c9); /* For Firefox 3.6 to 15 */
+    /* background: url(../images/pixel_gradient.png) no-repeat ,linear-gradient(to right,#ffb400 , #fdf2c9,#fdf2c9); */
+    /*background: url(../images/pixel_gradient.png) no-repeat;*/
+    width: 95.6%;
+    height: 39px;
+    background-position: 100%;
+    border-bottom: 1px solid #ffb400;
+}
+.mainTabs > .mt10 > .nav-tabs li a {
+    background: #f1f0f0;
+    /* padding: 9px; */
+    font-size: 14px;
+    /* overflow: hidden; */
+}
+
+.mainTabs > .mt10 > .nav-tabs li.active a {
+   background: #fff;
+   color: #ffb400;
+   border-bottom: 0px solid transparent;
+   border-top: 1px solid #ffb400;
+   border-left: 1px solid #ffb400;
+   border-right: 1px solid #ffb400;
+   height: 39px;
+}
+.singleTab > .mt10 > .nav-tabs li.active a {
+    background: #fff;
+    color: #ffb400;
+    border-bottom: 1px solid #ffb400;
+    height: 39px;
+}
+.singleTab > .mt10 > .nav-tabs li a {
+    background: #f1f0f0;
+    /* padding: 9px; */
+    font-size: 14px;
+    /* overflow: hidden; */
+}
+.singleTab > .mt10 > ul.nav.nav-tabs {
+    margin: 0 2%;
+    border: 0;
+    /* background:url(../images/pixel_gradient.png) no-repeat ,-webkit-linear-gradient(#ffb400 , #fdf2c9,#fdf2c9); */ /* For Safari 5.1 to 6.0 */
+    background: url(../images/pixel_gradient.png) no-repeat ,-o-linear-gradient(#ffb400 , #fdf2c9,#fdf2c9); /* For Opera 11.1 to 12.0 */
+    background: url(../images/pixel_gradient.png) no-repeat ,-moz-linear-gradient(#ffb400 , #fdf2c9,#fdf2c9); /* For Firefox 3.6 to 15 */
+    /* background: url(../images/pixel_gradient.png) no-repeat ,linear-gradient(to right,#ffb400 , #fdf2c9,#fdf2c9); */
+    /*background: url(../images/pixel_gradient.png) no-repeat;*/
+    width: 96%;
+    height: 39px;
+    background-position: 100%;
+    border-bottom: 1px solid #ffb400;
+}
+.headerMain{    margin: 0 2%;
+    border: 0; 
+	background:url(../images/pixel_gradient.png) no-repeat ,-webkit-linear-gradient(#ffb400 , #fdf2c9,#fdf2c9); /* For Safari 5.1 to 6.0 */
+  background: url(../images/pixel_gradient.png) no-repeat ,-o-linear-gradient(#ffb400 , #fdf2c9,#fdf2c9); /* For Opera 11.1 to 12.0 */
+  background: url(../images/pixel_gradient.png) no-repeat ,-moz-linear-gradient(#ffb400 , #fdf2c9,#fdf2c9); /* For Firefox 3.6 to 15 */
+  background: url(../images/pixel_gradient.png) no-repeat ,linear-gradient(to right,#ffb400 , #fdf2c9,#fdf2c9);
+    /*background: url(../images/pixel_gradient.png) no-repeat;*/
+       width: 100%;
+    height: 27px;
+    background-position: 100%;
+    text-align: left;
+    padding: 6px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;    overflow: hidden;
+    font-size: 14px;}
+.mrgnBtm10{margin-bottom:10px;}
+.boldtxt{font-weight:bold;}
+.sliderText{    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.54);
+    padding: 20px 60px 10px;}
+.slidetxt1{    float: left;
+    color: orange;
+    font-size: 16px;
+    font-weight: bold;}
+.slidetxt2{    float: left;
+    color: #fff;
+    padding: 5px 0;}
+
+
+
+.agileTab{margin: 0 1%;}
+
+	.padright30{padding-right: 30px;}
+		.margnLft{    margin-left: 3%;}
+		
+		.btnSlider{float: left;
+    border: 0;
+    background: #4e5352;
+    color: #fff;
+    padding: 5px 13px;
+    margin-top: 10px;
+    cursor: pointer;
+	}
+	
+.mainTabs > .nopaddingTabs > .nav-tabs li a{color:#b1b1b1;}
+.mainTabs > .nopaddingTabs > .nav-tabs li.active a{color:rgb(229, 142, 13);}
+
+.autocomplete__item{list-style: none !important;cursor: pointer}
+.autocomplete__selected{display:none !important}
+.autocomplete__input{
+	width: 298px !important;
+	padding-bottom: 5px !important;
+	padding-left: 5px;
+}
+.autocomplete__items{
+	height: 85px;
+    overflow: auto;
+}
+.zindex{
+	z-index: -1;
+}
+.pad4{    padding: 1px 6px;}
+
+.belowContentError{     float: left;
+    width: 100%;
+    background: #2d2d2d;
+    position: fixed;
+    bottom: 0;
+    padding: 25px 32%;
+    color: #d6d5d5;}
+.listBelow{float:left;width:100%;font-size: 18px;}
+.txtBelow{float:left;}
+.clickBtn{cursor:pointer;}
+
+
+.mainTabs > .mt10 > .nav-tabs li {
+    /* margin-right: 10px; */
+}
+.carousel_slider>.carousel-indicators {
+  
+    bottom: 55px;
+    
+}
+.carousel_slider>.carousel-indicators li {
+ 
+    border: 1px solid rgba(0, 0, 0, 0.37);
+   
+}
+.clr_blue{
+    color:#17aaca;
+    font-weight: 700;
+}
+.clr_green{
+    color:#69b115;
+    font-weight: 700;
+}
+.popup_btns .btn_yesno{
+	color: #fff;
+    background-color: #FFAA05;
+    border-color: #FFAA05;
+    padding: 5px;
+    width: 90px;
+    float: left;
+    border-radius: 0px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.hr_line{
+	    border: 1px dotted rgba(128, 128, 128, 0.6);
+    margin: 5px;
+}
+.band_wise
+{
+	    position: absolute;
+    top: 0;
+    left: 36%;
+    margin: 10px 11px;
+    z-index: 1;
+    background: white;
+    padding: 3px 11px;
+    font-size: 12px;
+}
+.max_icon{
+    background: url('../images/Appraisal_Sprite.png') no-repeat -1203px -152px;
+    width: 18px;
+    height: 18px;
+    float:right;
+    margin-top: 1px;
+    cursor: pointer;
+
+}
+.minimize_icon{
+    background: url(../images/Appraisal_Sprite.png) no-repeat -1236px -152px;
+    width: 18px;
+    height: 18px;
+    float: right;
+    margin-top: 1px;
+    cursor: pointer;
+
+}
+.addLmCantRate{
+	position: relative;
+    left: -7px;
+	margin-top: 6px;
+}
+.left14{left: 14px !important;}
+.hintHeader{
+	border: 1px solid #dadada;
+    margin-left: 21px;
+    width: 95.9%;
+	top: 27px;
+}
+.ashColor{
+	color: #9c9c9c;
+	padding: 12px 0px;
+}
+.knowMore{
+	text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #dadada;
+    padding: 14px 0px;
+	cursor: pointer;
+}
+.haveEffec{
+	padding: 12px 31px;
+}
+.reviewStatus{
+	position: relative;
+    top: 62px
+}
+.positionChange{
+	position: relative;
+    top: -16px;
+}
+.enable_review_icon_list {
+    background: url(../images/Detailed-review_icon.png) no-repeat -4px -2px;
+    width: 24px;
+    height: 26px;
+	left: 5px;
+	cursor: pointer;
+}
+
+.confirm_icon_list_new {
+    background: url(../images/Confirm_icoon.png) no-repeat -6px -5px;
+    width: 19px;
+    height: 19px;
+	left: 8px;
+	cursor: pointer;
+}
+.list_img{padding: 11px 14px;}
+.list_name{padding: 13px 0px;}
+.textCentre{text-align: center;}
+.list_confirm{padding: 9px 15px;}
+.fontSize11{font-size: 11px;}
+.listIcons{padding: 5px 0px;}
+.listMainReview{padding: 27px 11px;}
+.listReview{
+	background: url(../images/Appraisal_Sprite.png) no-repeat -1156px -395px;
+    width: 11px;
+    height: 11px;
+	cursor: pointer;
+}
+.listRevert{
+	background: url(../images/Appraisal_Sprite.png) no-repeat -1185px -395px;
+    width: 11px;
+    height: 11px;
+	cursor: pointer;
+}
+.pip-icon-new{
+	background: url(../images/Appraisal_Sprite.png) no-repeat -164px -562px;
+    width: 47px;
+    height: 46px;
+    margin: 0 auto;
+    border: none;
+}
+.pip-icon-new:hover{
+	background: url('../images/Appraisal_Sprite.png') no-repeat -226px -562px;
+	width: 47px;
+	height: 46px;
+	margin: 0 auto;
+	border:none;
+}
